@@ -1,0 +1,26 @@
+title:
+  Nikos Baxevanis (moodmosaic)
+
+author:
+  name:
+    Nikos Baxevanis
+  tagline:
+    プログラマー
+  blog:
+    http://nikosbaxevanis.com
+  email:
+    nikos.baxevanis@gmail.com
+  github:
+    moodmosaic
+  twitter:
+    nikosbaxevanis
+
+include:
+  - _pages
+
+permalink:
+  /:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="{{site.baseurl}}/code.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/site.css">
+    <link rel="stylesheet" href="https://code.cdn.mozilla.net/fonts/fira.css">
+
+    <title>
+    {% if page.title %}
+      {{page.title}} - {{site.title}}
+    {% else %}
+      {{site.title}}
+    {% endif %}
+    </title>
+  </head>
+
+  <body>
+    <div>
+      {{content}}
+    </div>
+  </body>
+</html>
