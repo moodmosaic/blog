@@ -5,10 +5,12 @@ body {
   margin: 0 auto;
   max-width: 790px;
   padding: 0.5em;
+  color: #123;
+
 }
 
 hr {
-  border-top: 10px solid black;
+  border-top: 10px solid #123;
 }
 
 p {
