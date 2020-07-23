@@ -1,49 +1,14 @@
 body {
-  font-family: "Fira Sans";
-  font-weight: 300;
-  overflow-x: hidden;
-  margin: 0 auto;
-  max-width: 790px;
-  padding: 0.5em;
-  color: #123;
-
-}
-
-hr {
-  border-top: 10px solid #123;
-}
-
-p {
-  padding: 0 1em;
-}
-
-pre {
-  margin-bottom: 1em;
-  padding: 1em 0em 1em 1em;
-  max-height: 610px;
-  overflow: auto;
-  background-color: #eff0f1;
-  border-radius: 3px;
-  font-size: 97%;
-}
-
-.mono
-,code {
-  font-family: "Fira Mono";
+  max-width: 600px;
 }
 
 img {
   max-width: 100%;
 }
 
-.glyph {
-  margin: 1em auto;
-  text-align: center;
-  font-size: 72px;
-}
-
-@media (max-width: 640px) {
-  p {
-    padding: 0;
+@media (min-width: 640px) {
+  body {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
