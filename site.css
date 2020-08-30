@@ -1,4 +1,10 @@
+@font-face  {
+  font-family: 'Open Sans';
+  src: url("OpenSans-Regular.ttf");
+}
+
 body {
+  font-family: 'Open Sans', sans-serif;
   max-width: 600px;
 }
 
@@ -11,4 +17,14 @@ img {
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+h2 {
+  background-color: #c0e1ea;
+  padding: .25em 1ex .25em;
+  border-radius: 1ex;
+}
+
+a {
+  text-decoration: none;
 }
