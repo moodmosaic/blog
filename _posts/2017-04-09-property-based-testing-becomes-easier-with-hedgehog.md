@@ -5,7 +5,7 @@ summary:
 tags:
     - Hedgehog
     - Haskell
-    - F#
+    - FSharp
 ---
 
 [Hedgehog](https://github.com/hedgehogqa) is a brand new property-based testing system.

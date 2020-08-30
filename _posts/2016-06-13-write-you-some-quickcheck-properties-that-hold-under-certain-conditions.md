@@ -3,7 +3,7 @@ layout: post
 title: Write you some QuickCheck - Properties that hold under certain conditions
 summary:
 tags:
-    - F#
+    - FSharp
     - QuickCheck
 ---
 

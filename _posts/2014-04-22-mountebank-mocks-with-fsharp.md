@@ -3,7 +3,7 @@ layout: post
 title: Mountebank Mocks with F#
 summary:
 tags:
-    - F#
+    - FSharp
     - xUnit.net
 ---
 

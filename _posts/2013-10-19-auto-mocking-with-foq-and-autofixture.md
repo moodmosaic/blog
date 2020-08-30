@@ -3,7 +3,7 @@ layout: post
 title: Auto-Mocking with Foq and AutoFixture
 summary:
 tags:
-    - F#
+    - FSharp
     - AutoFixture
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: How to configure MSBuild to locate the F# build targets
 summary:
 tags:
-    - F#
+    - FSharp
 ---
 
 ## Problem

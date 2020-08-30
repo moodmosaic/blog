@@ -3,7 +3,7 @@ layout: post
 title: In-memory Drain abstractions applied to A Functional Architecture with F#
 summary:
 tags:
-    - F#
+    - FSharp
 ---
 
 This post shows how to apply the [Drain](http://blog.ploeh.dk/2014/07/23/drain/) filter abstraction to the master branch of the Pluralsight course about [A Functional Architecture with F#](http://pluralsight.com/training/Courses/TableOfContents/functional-architecture-fsharp) by [Mark Seemann](http://blog.ploeh.dk/).

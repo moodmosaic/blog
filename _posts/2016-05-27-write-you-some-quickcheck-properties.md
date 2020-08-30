@@ -3,7 +3,7 @@ layout: post
 title: Write you some QuickCheck - Properties
 summary:
 tags:
-    - F#
+    - FSharp
     - QuickCheck
 ---
 

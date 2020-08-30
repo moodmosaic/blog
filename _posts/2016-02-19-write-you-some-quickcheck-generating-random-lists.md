@@ -3,7 +3,7 @@ layout: post
 title: Write you some QuickCheck - Generating random lists
 summary:
 tags:
-    - F#
+    - FSharp
     - QuickCheck
 ---
 

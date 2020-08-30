@@ -4,10 +4,8 @@ title: Creating F# lists with AutoFixture
 summary:
 tags:
     - AutoFixture
-    - F#
+    - FSharp
 ---
-
-This post explains how to customize AutoFixture in order to work with F# lists.
 
 ## Problem
 

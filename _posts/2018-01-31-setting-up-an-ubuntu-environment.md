@@ -5,7 +5,7 @@ summary:
 tags:
   - Miscellaneous
   - Haskell
-  - F#
+  - FSharp
 ---
 
 Tried on Ubuntu 16.04.3 LTS (Xenial Xerus)

@@ -4,7 +4,7 @@ title: XCOPY deployment for Code Contracts
 summary:
 tags:
     - Miscellaneous
-    - F#
+    - FSharp
 ---
 
 If you don't wish to install [Code Contracts](http://research.microsoft.com/en-us/projects/contracts/) through the Windows Installer:

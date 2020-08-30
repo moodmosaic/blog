@@ -3,7 +3,7 @@ layout: post
 title: FsCheck setup in F#
 summary:
 tags:
-    - F#
+    - FSharp
     - FsCheck
 ---
 

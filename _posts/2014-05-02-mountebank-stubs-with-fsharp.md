@@ -3,7 +3,7 @@ layout: post
 title: Mountebank Stubs with F#
 summary:
 tags:
-    - F#
+    - FSharp
     - xUnit.net
 ---
 

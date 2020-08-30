@@ -3,7 +3,7 @@ layout: post
 title: How to configure AutoFoq with Foq's return strategy
 summary:
 tags:
-    - F#
+    - FSharp
     - AutoFixture
 ---
 

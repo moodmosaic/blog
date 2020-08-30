@@ -3,7 +3,7 @@ layout: post
 title: Write you some QuickCheck - Generating random long integers
 summary:
 tags:
-    - F#
+    - FSharp
     - QuickCheck
 ---
 

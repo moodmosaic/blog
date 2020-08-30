@@ -3,7 +3,7 @@ layout: post
 title: Generators and the 'choose' function
 summary:
 tags:
-    - F#
+    - FSharp
     - FsCheck
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: Short intro to QuickCheck
 summary:
 tags:
-    - F#
+    - FSharp
     - QuickCheck
 ---
 

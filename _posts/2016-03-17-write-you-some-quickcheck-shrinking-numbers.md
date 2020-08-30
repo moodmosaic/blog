@@ -3,7 +3,7 @@ layout: post
 title: Write you some QuickCheck - Shrinking numbers
 summary:
 tags:
-    - F#
+    - FSharp
     - QuickCheck
 ---
 

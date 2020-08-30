@@ -3,7 +3,7 @@ layout: post
 title: Semantic Equality Comparison in F#
 summary:
 tags:
-    - F#
+    - FSharp
     - AutoFixture
 ---
 

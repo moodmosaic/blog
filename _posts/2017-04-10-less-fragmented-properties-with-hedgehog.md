@@ -5,7 +5,7 @@ summary:
 tags:
     - Hedgehog
     - Haskell
-    - F#
+    - FSharp
 ---
 
 In this post, I'll be porting a property-based test from QuickCheck 2 and from FsCheck 2 to Hedgehog. See [this](/2017/04/09/property-based-testing-becomes-easier-with-hedgehog/) post for a brief introduction to Hedgehog.

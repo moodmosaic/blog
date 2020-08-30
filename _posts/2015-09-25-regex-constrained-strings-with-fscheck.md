@@ -3,7 +3,7 @@ layout: post
 title: Regex-constrained strings with FsCheck
 summary:
 tags:
-    - F#
+    - FSharp
     - FsCheck
     - Fare
 ---
