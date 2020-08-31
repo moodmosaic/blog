@@ -6,10 +6,9 @@ tags:
     - Haskell
 ---
 
-<div class="message">
-  <p>Why do that and not use <a href="https://www.haskell.org/platform/">Haskell Platform</a> instead?</p>
-  <p>From what I have experienced so far, Haskell Platform falls behind the latest GHC release, and ships with Packages that <a href="http://www.reddit.com/r/haskell/comments/2al3vx/how_do_you_avoid_the_cabal_hell/">one might not need</a>.</p>
-</div>
+Why do that and not use <a href="https://www.haskell.org/platform/">Haskell Platform</a> instead?
+
+From what I have experienced so far, Haskell Platform falls behind the latest GHC release, and ships with Packages that <a href="http://www.reddit.com/r/haskell/comments/2al3vx/how_do_you_avoid_the_cabal_hell/">one might not need</a>.
 
 Essentially there are two things needed:
 
