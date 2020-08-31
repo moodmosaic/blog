@@ -2,24 +2,14 @@
 layout: basic
 ---
 
-<div>
-  Published
-  {% assign day = page.date | date: "%-d"  %}
-  {% case day %}
-    {% when '1' or '21' or '31' %}{{ day }}st
-    {% when '2' or '22' %}{{ day }}nd
-    {% when '3' or '23' %}{{ day }}rd
-    {% else %}{{ day }}th
-  {% endcase %}
-  {{ page.date | date: "of %B, %Y" }},
-  by {{ site.author.name }}.
-  Tagged as
-  {% for tag in page.tags %}
-    <a href="/tags/#{{tag | downcase}}">
-      {{tag | downcase}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}.
-<hr></div>
+<h1>{{page.title}}</h1><hr>
 
-<h1>{{page.title}}</h1>
+<div>
+  Nikos Baxevanis, {{ page.date | date_to_long_string }}&nbsp;
+  {% for tag in page.tags %}
+    <a class="tags" href="/tags/#{{tag | downcase}}">
+      #{{tag | downcase}}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
+</div><br>
 
 {{content}}<br>
 
@@ -32,10 +22,9 @@ layout: basic
     I'm on Twitter as <a href="https://twitter.com/nikosbaxevanis">@nikosbaxevanis</a>.
     I check my Twitter mentions pretty regularly. That's the best way to contact me.
   </p>
-</div>
+</div><br>
 
 <div>
-  <br>
   <hr>
   <span>
     © Nikos Baxevanis {{ site.time | date: '%Y' }}, with help from
