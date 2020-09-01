@@ -2,17 +2,18 @@
 layout: basic
 ---
 
-<h1>{{page.title}}</h1>
-
 <div class="meta">
-  Nikos Baxevanis, {{ page.date | date_to_long_string }},
-
+  <a href="https://nikosbaxevanis.com">nikos</a>
+  &#x203A;
+  <a href="https://blog.nikosbaxevanis.com">blog</a>
+  &#x203A;
   {% for tag in page.tags %}
     <a class="tags" href="/tags/#{{tag | downcase}}">
       #{{tag | downcase}}</a>{% unless forloop.last %} &#x203A;{% endunless %}{% endfor %}
 </div>
 
-<hr>
+<h1>{{page.title}}</h1>
+{{ page.date | date_to_string }}
 
 {{content}}<br>
 
@@ -25,13 +26,6 @@ layout: basic
     I'm on Twitter as <a href="https://twitter.com/nikosbaxevanis">@nikosbaxevanis</a>.
     I check my Twitter mentions pretty regularly. That's the best way to contact me.
   </p>
-</div><br>
-
-<div>
-  <hr>
-  <span>
-    © Nikos Baxevanis {{ site.time | date: '%Y' }}, with help from
-    <a href="https://jekyllrb.com/">Jekyll</a> and
-    <a href="http://motherfuckingwebsite.com/">motherfucking website</a>.
-  </span>
 </div>
+
+<br>

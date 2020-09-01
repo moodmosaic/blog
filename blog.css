@@ -34,6 +34,16 @@ a:hover {
 
 .meta {
   color: #888888;
+  padding-top: 1em;
+}
+
+.meta a {
+  color: #888888;
+  text-decoration: underline;
+}
+
+.meta a:hover {
+  text-decoration: none;
 }
 
 pre {
