@@ -3,8 +3,8 @@ layout: post
 title: Write you some QuickCheck - Properties that hold under certain conditions
 summary:
 tags:
-    - FSharp
     - QuickCheck
+    - FSharp
 ---
 
 This post is part of a [series of posts on implementing a minimal version of QuickCheck](/2016/02/08/write-you-some-quickcheck/) from scratch. The source code is [available on GitHub](https://gist.github.com/moodmosaic/65c576732722b3b7a200).

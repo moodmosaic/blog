@@ -2,7 +2,9 @@
 layout : post
 title  : RegularExpressionAttribute support in AutoFixture
 summary: Generate random text matching a given regex with AutoFixture
-tags   : [Fare, AutoFixture]
+tags:
+    - AutoFixture
+    - Fare
 ---
 
 ## Context

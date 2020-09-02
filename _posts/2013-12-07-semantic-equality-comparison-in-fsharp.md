@@ -3,8 +3,8 @@ layout: post
 title: Semantic Equality Comparison in F#
 summary:
 tags:
-    - FSharp
     - AutoFixture
+    - FSharp
 ---
 
 This post demonstrates a way to perform semantic equality for complex object graphs taking advantage of [SemanticComparer](https://github.com/AutoFixture/SemanticComparison/blob/bb6cc245131e6f2e17a48d1b3793f309dac55fd9/Src/SemanticComparison/SemanticComparer.cs#L175) including Structural Types, Entities, Value Objects, as well as Primitive Types.

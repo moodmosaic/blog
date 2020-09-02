@@ -3,8 +3,8 @@ layout: post
 title: Short intro to QuickCheck
 summary:
 tags:
-    - FSharp
     - QuickCheck
+    - FSharp
 ---
 
 **1. Write a function**

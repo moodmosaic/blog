@@ -2,7 +2,9 @@
 layout : post
 title  : Fare - Finite Automata/Regex in .NET
 summary: Generate random text matching a given regex
-tags   : [AutoFixture, Fare]
+tags:
+    - AutoFixture
+    - Fare
 ---
 
 [Fare](https://github.com/moodmosaic/Fare "Fare - [F]inite [A]utomata and [R]egular [E]xpressions")

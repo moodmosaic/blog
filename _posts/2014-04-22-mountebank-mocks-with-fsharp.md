@@ -3,8 +3,8 @@ layout: post
 title: Mountebank Mocks with F#
 summary:
 tags:
-    - FSharp
     - xUnit.net
+    - FSharp
 ---
 
 This post describes how to use Mountebank imposters as Mock Objects/Test Spies via HTTP with F#.

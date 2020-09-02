@@ -2,7 +2,9 @@
 layout : post
 title  : Combining Data Theories in AutoFixture.Xunit extension
 summary: The implementation of the legendary InlineAutoData attribute
-tags   : [AutoFixture, xUnit.net]
+tags:
+    - AutoFixture
+    - xUnit.net
 ---
 
 ## Introduction

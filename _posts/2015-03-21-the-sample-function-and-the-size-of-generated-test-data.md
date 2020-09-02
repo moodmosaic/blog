@@ -3,10 +3,8 @@ layout: post
 title: Observing the size of generated test data
 summary:
 tags:
-    - FsCheck
-    - Haskell
-    - QuickCheck
     - FSharp
+    - FsCheck
 ---
 
 QuickCheck has a function called [`sample`](https://hackage.haskell.org/package/QuickCheck-2.8/docs/src/Test-QuickCheck-Gen.html#sample) which, given a generator, prints some examples values to the standard output (stdout).

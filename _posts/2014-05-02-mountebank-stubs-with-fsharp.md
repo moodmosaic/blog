@@ -3,8 +3,8 @@ layout: post
 title: Mountebank Stubs with F#
 summary:
 tags:
-    - FSharp
     - xUnit.net
+    - FSharp
 ---
 
 The [previous post](http://nikosbaxevanis.com/blog/2014/04/22/mountebank-mocks-with-f-number/) described what Mountebank is, as well as how to use Mountebank imposters as Mocks via HTTP and F#.

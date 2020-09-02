@@ -3,8 +3,8 @@ layout: post
 title: How to configure AutoFoq with Foq's return strategy
 summary:
 tags:
-    - FSharp
     - AutoFixture
+    - FSharp
 ---
 
 This post explains how to configure [AutoFixture.AutoFoq 3](http://nuget.org/packages/AutoFixture.AutoFoq) so that `null` values are never returned when using [Foq](https://foq.codeplex.com/) 1.5.1 and newer.

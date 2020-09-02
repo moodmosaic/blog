@@ -4,8 +4,6 @@ title: Setting up an Ubuntu environment
 summary:
 tags:
   - Miscellaneous
-  - Haskell
-  - FSharp
 ---
 
 Tried on Ubuntu 16.04.3 LTS (Xenial Xerus)
