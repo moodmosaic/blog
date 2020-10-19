@@ -8,6 +8,9 @@ body {
 
 img {
   max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (min-width: 640px) {
@@ -17,14 +20,8 @@ img {
   }
 }
 
-h2, h3 {
-  background-color: #c0e1ea;
-  border-radius: 1ex;
-  padding: .25em 1ex .25em;
-}
-
 a {
-  color: #00d;
+  color: #1a6e8e;
   text-decoration: none;
 }
 
@@ -60,7 +57,4 @@ code {
 }
 .meta a {
   color: #888;
-}
-.meta a:hover {
-  text-decoration: none;
 }
