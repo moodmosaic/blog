@@ -18,6 +18,10 @@ img {
     margin-left: auto;
     margin-right: auto;
   }
+
+  .deer {
+    width: 40%;
+  }
 }
 
 a {
@@ -57,4 +61,8 @@ code {
 }
 .meta a {
   color: #888;
+}
+
+.deer {
+  width: 30%;
 }
