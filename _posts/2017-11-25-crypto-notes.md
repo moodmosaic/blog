@@ -3,7 +3,7 @@ layout: post
 title: Crypto-notes
 summary:
 tags:
-  - Cryptos
+  - Miscellaneous
 ---
 
 ## Bitcoin, Ethereum, Cardano, NEO, etc.
