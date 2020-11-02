@@ -4,10 +4,10 @@ layout: basic
 
 <div class="meta">
   <a href="https://nikosbaxevanis.com">@nikosbaxevanis</a>
-  &#x203A;
+  <code>&#x203A;</code>
   {% for tag in page.tags %}
     <a class="tags" href="/tags/#{{tag | downcase}}">
-      #{{tag | downcase}}</a>{% unless forloop.last %} &#x203A;{% endunless %}{% endfor %}
+      #{{tag | downcase}}</a>{% unless forloop.last %} <code>&#x203A;</code>{% endunless %}{% endfor %}
 </div>
 
 <h1>{{page.title}}</h1>
