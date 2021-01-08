@@ -6,6 +6,13 @@ img {
   max-width: 100%;
 }
 
+@media (min-width: 640px) {
+  body {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 a {
   text-decoration: none;
 }
