@@ -4,7 +4,7 @@ permalink: /tags/
 title: Tags
 ---
 
-<h1>Tags</h1>
+<h2>Tags</h2>
 
 <ul>
   <li><a href="#autofixture">AutoFixture</a></li>
@@ -21,7 +21,7 @@ title: Tags
 </ul>
 
 {% for tag in site.tags %}
-  <h2 id={{tag[0] | downcase}}>{{tag[0]}}</h2>
+  <h3 id={{tag[0] | downcase}}>{{tag[0]}}</h3>
   {% assign _tags = tag[1] %}
   {% for node in _tags %}
     {% if node.title != null %}
