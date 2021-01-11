@@ -2,16 +2,17 @@
 layout: basic
 ---
 
-<div class="meta">
-  <a href="/">Blog</a>
-  <code>&#x203A;</code>
-  {% for tag in page.tags %}
-    <a class="tags" href="/tags/#{{tag | downcase}}">
-      #{{tag | downcase}}</a>{% unless forloop.last %} <code>&#x203A;</code>{% endunless %}{% endfor %}
+<h2 class="title">
+  {{page.title}}
+</h2>
+
+<div class="name">
+  by Nikos Baxevanis
 </div>
 
-<h2>{{page.title}}</h2>
-{{ page.date | date_to_string }}
+<p>
+  {{ page.date | date_to_string }}
+<p>
 
 {{content}}
 
