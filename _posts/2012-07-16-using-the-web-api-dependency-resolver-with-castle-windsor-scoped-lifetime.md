@@ -2,6 +2,7 @@
 layout: post
 title: Web API Dependency Resolver with Castle Windsor's Scoped Lifetime
 summary:
+id-image: 1
 tags:
     - ASP.NET
 ---

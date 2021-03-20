@@ -2,6 +2,7 @@
 layout: post
 title: Composite xUnit.net Data Attributes
 summary:
+id-image: 1
 tags:
     - AutoFixture
     - xUnit.net

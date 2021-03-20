@@ -2,6 +2,7 @@
 layout: post
 title: Those pesky build servers
 summary:
+id-image: 1
 tags:
     - Miscellaneous
 ---

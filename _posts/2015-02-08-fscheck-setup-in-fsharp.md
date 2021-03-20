@@ -2,6 +2,7 @@
 layout: post
 title: FsCheck setup in F#
 summary:
+id-image: 1
 tags:
     - FSharp
     - FsCheck

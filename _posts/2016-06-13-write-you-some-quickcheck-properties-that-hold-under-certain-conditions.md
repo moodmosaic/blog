@@ -2,6 +2,7 @@
 layout: post
 title: Write you some QuickCheck - Properties that hold under certain conditions
 summary:
+id-image: 1
 tags:
     - QuickCheck
     - FSharp

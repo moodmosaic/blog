@@ -2,6 +2,7 @@
 layout: post
 title: The GitHub way of blog discussion and commenting
 summary:
+id-image: 1
 tags:
     - Miscellaneous
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: URI support in AutoFixture
 summary:
+id-image: 1
 tags:
     - AutoFixture
 ---

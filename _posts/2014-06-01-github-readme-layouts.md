@@ -2,6 +2,7 @@
 layout: post
 title: GitHub README layouts
 summary:
+id-image: 1
 tags:
     - Miscellaneous
 ---

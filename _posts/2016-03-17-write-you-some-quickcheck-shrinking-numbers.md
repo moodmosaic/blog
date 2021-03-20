@@ -2,6 +2,7 @@
 layout: post
 title: Write you some QuickCheck - Shrinking numbers
 summary:
+id-image: 1
 tags:
     - QuickCheck
     - FSharp

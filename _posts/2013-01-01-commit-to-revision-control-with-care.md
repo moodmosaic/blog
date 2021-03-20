@@ -2,6 +2,7 @@
 layout: post
 title: Commit to Revision Control with Care
 summary:
+id-image: 1
 tags:
     - Miscellaneous
 ---

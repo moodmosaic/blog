@@ -2,6 +2,7 @@
 layout: post
 title: RangeAttribute support in AutoFixture
 summary:
+id-image: 1
 tags:
     - AutoFixture
 ---

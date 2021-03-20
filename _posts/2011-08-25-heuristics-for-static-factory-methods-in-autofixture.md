@@ -2,6 +2,7 @@
 layout: post
 title: Heuristics for Static Factory Methods in AutoFixture
 summary:
+id-image: 1
 tags:
     - AutoFixture
 ---

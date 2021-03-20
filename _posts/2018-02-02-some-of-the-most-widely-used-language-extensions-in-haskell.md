@@ -2,6 +2,7 @@
 layout: post
 title: Top ten desired Haskell language extensions
 summary:
+id-image: 1
 tags:
   - Haskell
 ---

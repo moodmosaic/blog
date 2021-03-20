@@ -2,6 +2,7 @@
 layout: post
 title: Empty ASP.NET Web API Project Template
 summary:
+id-image: 1
 tags:
     - ASP.NET
 ---

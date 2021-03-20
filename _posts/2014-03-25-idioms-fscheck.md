@@ -2,6 +2,7 @@
 layout: post
 title: Idioms.FsCheck
 summary:
+id-image: 1
 tags:
     - AutoFixture
     - xUnit.net

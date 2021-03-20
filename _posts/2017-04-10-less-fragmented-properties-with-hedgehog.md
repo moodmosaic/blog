@@ -2,6 +2,7 @@
 layout: post
 title: Less fragmented properties with Hedgehog
 summary:
+id-image: 1
 tags:
     - Haskell
     - Hedgehog

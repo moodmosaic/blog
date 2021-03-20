@@ -2,6 +2,7 @@
 layout : post
 title  : RegularExpressionAttribute support in AutoFixture
 summary: Generate random text matching a given regex with AutoFixture
+id-image: 1
 tags:
     - AutoFixture
     - Fare

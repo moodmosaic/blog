@@ -2,6 +2,7 @@
 layout: post
 title: Truly Constrained Non-Deterministic Numbers in AutoFixture
 summary:
+id-image: 1
 tags:
     - AutoFixture
 ---

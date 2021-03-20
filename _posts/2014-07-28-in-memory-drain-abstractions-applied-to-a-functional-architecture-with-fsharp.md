@@ -2,6 +2,7 @@
 layout: post
 title: In-memory Drain abstractions applied to A Functional Architecture with F#
 summary:
+id-image: 1
 tags:
     - FSharp
 ---

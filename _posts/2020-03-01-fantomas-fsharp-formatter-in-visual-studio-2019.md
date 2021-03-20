@@ -2,6 +2,7 @@
 layout: post
 title: Fantomas F# formatter in Visual Studio 2019
 summary:
+id-image: 1
 tags:
   - FSharp
 ---

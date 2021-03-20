@@ -2,6 +2,7 @@
 layout: post
 title: Compiling .NET projects in Sublime Text
 summary:
+id-image: 1
 tags:
     - Sublime&nbsp;Text
 ---

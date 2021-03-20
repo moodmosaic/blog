@@ -2,6 +2,7 @@
 layout: post
 title: Write you some QuickCheck - Generating random characters
 summary:
+id-image: 1
 tags:
     - QuickCheck
     - FSharp

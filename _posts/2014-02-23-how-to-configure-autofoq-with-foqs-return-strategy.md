@@ -2,6 +2,7 @@
 layout: post
 title: How to configure AutoFoq with Foq's return strategy
 summary:
+id-image: 1
 tags:
     - AutoFixture
     - FSharp

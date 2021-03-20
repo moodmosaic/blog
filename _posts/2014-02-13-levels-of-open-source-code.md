@@ -2,6 +2,7 @@
 layout: post
 title: Levels of open-source code
 summary:
+id-image: 1
 tags:
     - Miscellaneous
 ---

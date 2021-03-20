@@ -2,6 +2,7 @@
 layout: post
 title: Using class libraries from different platforms
 summary:
+id-image: 1
 tags:
     - AutoFixture
     - Fare

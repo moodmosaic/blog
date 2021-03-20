@@ -2,6 +2,7 @@
 layout: post
 title: Statement Completion for Dynamic languages in Sublime Text
 summary:
+id-image: 1
 tags:
     - Sublime&nbsp;Text
 ---

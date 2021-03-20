@@ -2,6 +2,7 @@
 layout: post
 title: Exercising the SUT asynchronously
 summary:
+id-image: 1
 tags:
     - xUnit.net
 ---

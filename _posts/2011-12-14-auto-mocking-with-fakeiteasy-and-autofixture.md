@@ -2,6 +2,7 @@
 layout: post
 title: Auto-Mocking with FakeItEasy and AutoFixture
 summary:
+id-image: 1
 tags:
     - AutoFixture
 ---

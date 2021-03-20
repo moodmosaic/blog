@@ -2,6 +2,7 @@
 layout: post
 title: Atom + Stack = no globally installed GHC/packages
 summary:
+id-image: 1
 tags:
     - Haskell
 ---

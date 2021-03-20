@@ -2,6 +2,7 @@
 layout: post
 title: Notes from porting Java code to .NET
 summary:
+id-image: 1
 tags:
     - AutoFixture
     - Fare

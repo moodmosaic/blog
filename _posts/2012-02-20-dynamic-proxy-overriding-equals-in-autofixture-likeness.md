@@ -2,6 +2,7 @@
 layout: post
 title: Dynamic Proxy overriding Equals in AutoFixture Likeness
 summary:
+id-image: 1
 tags:
     - AutoFixture
 ---

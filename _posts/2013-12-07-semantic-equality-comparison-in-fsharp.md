@@ -2,6 +2,7 @@
 layout: post
 title: Semantic Equality Comparison in F#
 summary:
+id-image: 1
 tags:
     - AutoFixture
     - FSharp

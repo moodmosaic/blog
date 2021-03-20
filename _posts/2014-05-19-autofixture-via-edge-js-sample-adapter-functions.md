@@ -2,6 +2,7 @@
 layout: post
 title: AutoFixture via Edge.js sample adapter-functions
 summary:
+id-image: 1
 tags:
     - AutoFixture
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: QuickCheck setup in Haskell
 summary:
+id-image: 1
 tags:
     - Haskell
     - QuickCheck

@@ -2,6 +2,7 @@
 layout: post
 title: Setting up an Ubuntu environment
 summary:
+id-image: 1
 tags:
   - Miscellaneous
 ---

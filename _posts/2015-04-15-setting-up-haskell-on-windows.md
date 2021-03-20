@@ -2,6 +2,7 @@
 layout: post
 title: Setting up Haskell on Windows
 summary:
+id-image: 1
 tags:
     - Haskell
 ---

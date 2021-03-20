@@ -2,6 +2,7 @@
 layout: post
 title: Short intro to QuickCheck
 summary:
+id-image: 1
 tags:
     - QuickCheck
     - FSharp

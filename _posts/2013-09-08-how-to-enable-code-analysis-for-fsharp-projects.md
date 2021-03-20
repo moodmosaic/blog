@@ -2,6 +2,7 @@
 layout: post
 title: How to enable Code Analysis for F# projects
 summary:
+id-image: 1
 tags:
     - FSharp
 ---

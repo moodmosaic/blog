@@ -2,6 +2,7 @@
 layout: post
 title: Mountebank Mocks with F#
 summary:
+id-image: 1
 tags:
     - xUnit.net
     - FSharp

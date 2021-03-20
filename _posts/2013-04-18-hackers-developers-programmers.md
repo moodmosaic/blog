@@ -2,6 +2,7 @@
 layout: post
 title: Hackers, Developers, Programmers
 summary:
+id-image: 1
 tags:
     - Miscellaneous
 ---

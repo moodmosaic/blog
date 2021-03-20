@@ -2,6 +2,7 @@
 layout: post
 title: Tweaking Sublime Text themes to take advantage of Retina displays
 summary:
+id-image: 1
 tags:
     - Sublime&nbsp;Text
 ---

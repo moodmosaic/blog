@@ -2,6 +2,7 @@
 layout: post
 title: The rhyme of the altered Parser
 summary:
+id-image: 1
 tags:
   - Haskell
 ---
