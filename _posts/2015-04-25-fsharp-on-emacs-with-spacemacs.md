@@ -2,7 +2,7 @@
 layout: post
 title: F# on Emacs with Spacemacs
 summary:
-id-image: 1
+id-image: 3
 tags:
     - FSharp
 ---

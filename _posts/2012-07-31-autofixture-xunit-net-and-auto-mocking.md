@@ -2,7 +2,7 @@
 layout: post
 title: AutoFixture, xUnit.net, and Auto Mocking
 summary:
-id-image: 1
+id-image: 3
 tags:
     - AutoFixture
     - xUnit.net
