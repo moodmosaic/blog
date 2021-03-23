@@ -2,7 +2,7 @@
 layout: post
 title: Mountebank Stubs with F#
 summary:
-id-image: 1
+id-image: 2
 tags:
     - xUnit.net
     - FSharp
