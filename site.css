@@ -1,15 +1,37 @@
 body {
   max-width: 600px;
   font-size: 18px;
+  font: 400 16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI","Segoe UI Symbol","Segoe UI Emoji","Apple Color Emoji",Roboto,Helvetica,Arial,sans-serif;
+  color: #111;
+  background-color: #fdfdfd;
 }
 
 pre, code {
-  font-size: 16px;
+  font-size: 0.9375em;
   word-wrap: break-word;
+  font-family: "Menlo", "Inconsolata", "Consolas", "Roboto Mono", "Ubuntu Mono", "Liberation Mono", "Courier New", monospace;
+  border: 1px solid #e8e8e8;
+  background-color: #eef;
+}
+
+code {
+  padding: 1px 5px;
+}
+
+pre {
+  padding: 8px 12px;
+  overflow-x: auto;
+}
+
+pre>code {
+  border: 0;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 img {
   max-width: 100%;
+  vertical-align: middle;
 }
 
 @media (min-width: 640px) {
@@ -21,6 +43,14 @@ img {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: Helvetica;
+}
+
+a {
+    color: #2a7ae2;
+}
+
+a:visited {
+    color: #1756a9;
 }
 
 .title {
