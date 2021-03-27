@@ -2,7 +2,7 @@
 layout: post
 title: Crypto-notes
 summary:
-id-image: 1
+id-image: 8
 tags:
   - Miscellaneous
 ---

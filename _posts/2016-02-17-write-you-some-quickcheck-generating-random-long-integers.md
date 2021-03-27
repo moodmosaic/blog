@@ -2,7 +2,7 @@
 layout: post
 title: Write you some QuickCheck - Generating random long integers
 summary:
-id-image: 1
+id-image: 7
 tags:
     - QuickCheck
     - FSharp

@@ -2,7 +2,7 @@
 layout: post
 title: Why QuickCheck can be useful
 summary:
-id-image: 1
+id-image: 3
 tags:
     - QuickCheck
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Creating F# lists with AutoFixture
 summary:
-id-image: 1
+id-image: 4
 tags:
     - AutoFixture
     - FSharp

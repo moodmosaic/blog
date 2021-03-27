@@ -2,7 +2,7 @@
 layout: post
 title: Observing the size of generated test data
 summary:
-id-image: 1
+id-image: 8
 tags:
     - FSharp
     - FsCheck

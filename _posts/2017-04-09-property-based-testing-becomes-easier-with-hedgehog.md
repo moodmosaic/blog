@@ -2,7 +2,7 @@
 layout: post
 title: Property-based testing becomes easier with Hedgehog
 summary:
-id-image: 1
+id-image: 5
 tags:
     - Haskell
     - Hedgehog

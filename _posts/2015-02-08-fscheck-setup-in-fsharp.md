@@ -2,7 +2,7 @@
 layout: post
 title: FsCheck setup in F#
 summary:
-id-image: 1
+id-image: 8
 tags:
     - FSharp
     - FsCheck

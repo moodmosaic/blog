@@ -2,7 +2,7 @@
 layout: post
 title: Regex-constrained strings with FsCheck
 summary:
-id-image: 1
+id-image: 9
 tags:
     - FSharp
     - FsCheck

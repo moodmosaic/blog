@@ -2,7 +2,7 @@
 layout: post
 title: Generators and the 'choose' function
 summary:
-id-image: 1
+id-image: 8
 tags:
     - FSharp
     - FsCheck
