@@ -16,13 +16,13 @@ Essentially there are two things needed:
 * [GHC](https://www.haskell.org/ghc/) – Haskell's compiler and interactive environment.
 * [Cabal](https://www.haskell.org/cabal/) – Haskell's build system, which also doubles as a package manager.
 
-## GHC ##
+### GHC ###
 
 * Download GHC for Windows from [here](https://downloads.haskell.org/~ghc/).
 * Extract GHC contents to a folder and add to PATH:
   * \ghc-<em>x.y.z</em>\bin
 
-## Cabal ##
+### Cabal ###
 
 * Find out [here](https://ghc.haskell.org/trac/ghc/wiki/Commentary/Libraries/VersionHistory) which version of Cabal matches the GHC version you downloaded
 * Download Cabal for Windows from [here](https://www.haskell.org/cabal/release/)
@@ -36,7 +36,7 @@ And *that's it*!
 
 --
 
-## Did it work out? ##
+### Did it work out? ###
 
 Open a command prompt (cmd.exe) window or a Git Bash window and execute:
 

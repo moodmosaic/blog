@@ -50,7 +50,7 @@ internal class CollectionOfSpecifiedString : IEnumerable<object[]>
 
 In the above samples, `[ExcelData]` and `[ClassData]` are attributes representing a data source for a data-driven test.
 
-## Using data from multiple attributes
+### Using data from multiple attributes
 
 Below is a data-driven test with the data coming from a type implementing the IEnumerable<object[]> combined with the data coming from an .xls spreadsheet.
 
@@ -82,7 +82,7 @@ internal class CollectionOfSpecifiedString : IEnumerable<object[]>
 }
 ```
 
-## Creating a composite attribute
+### Creating a composite attribute
 
 The `[ClassExcelData]` from the previous example is a [composite](http://en.wikipedia.org/wiki/Composite_pattern) of two xUnit.net's data attributes `[ClassData]` and `[ExcelData]`.
 
@@ -105,6 +105,6 @@ The description for the `CompositeDataAttribute` algorithm can be found [here](h
 
 <p class="message">When defining a composite data attribute, it is acceptable for the first attribute to provide some (or all) data for the parameters of the test method. However, subsequent data attributes must be able to provide the data for the exact position where the previous attribute stopped.</p>
 
-## Obtaining the CompositeDataAttribute class
+### Obtaining the CompositeDataAttribute class
 
 CompositeDataAttribute is currently bundled with [AutoFixture](https://github.com/AutoFixture/AutoFixture) [extension](http://feed.nuget.org/packages/AutoFixture.Xunit) for xUnit.net. You can use it by installing the [AutoFixture.Xunit NuGet package](http://feed.nuget.org/packages/AutoFixture.Xunit).

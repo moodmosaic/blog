@@ -153,7 +153,7 @@ In the above command, `spec` is just the name of the test-suite, as declared in 
 
 *For convenience, all the above are also [available on GitHub](https://github.com/moodmosaic/quickcheck-fscheck-samples/tree/master/samples-quickcheck).*
 
-### References ###
+#### References ####
 
 * [The Haskell Cabal](https://www.haskell.org/cabal/)
 * [What I Wish I Knew When Learning Haskell](http://www.stephendiehl.com/what/#cabal)

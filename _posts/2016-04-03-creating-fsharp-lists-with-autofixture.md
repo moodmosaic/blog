@@ -8,7 +8,7 @@ tags:
     - FSharp
 ---
 
-## Problem
+### Problem
 
 An exception is thrown when requesting F# lists with AutoFixture:
 
@@ -25,7 +25,7 @@ Fixture().Create<int list>()
  *)
 ```
 
-## Diagnosis
+### Diagnosis
 
 Lists, and other collection types in the [System.Collections.Generic](https://msdn.microsoft.com/en-us/library/system.collections.generic.aspx) namespace, can be *filled* via the [constructor that takes an `IEnumerable<T>` as a parameter](https://msdn.microsoft.com/en-us/library/fkbw11z0.aspx).
 
@@ -36,7 +36,7 @@ AutoFixture creates such instances [via the constructor with the less number of 
 * F# lists can be built using the functions in the [List module](https://msdn.microsoft.com/en-us/library/ee353738.aspx).
 * Collection types in the System.Collections.Generic namespace can be built via the aforementioned constructor(s).
 
-## Customize AutoFixture to work with F# lists
+### Customize AutoFixture to work with F# lists
 
 The following customization can be applied to a `Fixture` instance, in order to support the creation of F# lists:
 
@@ -80,7 +80,7 @@ type ListCustomization() =
             fixture.Customizations.Add <| listBuilder fixture
 ```
 
-## Typical usage
+### Typical usage
 
 ```fsharp
 let fixture = Fixture().Customize(ListCustomization())
@@ -100,7 +100,7 @@ let listOfStrings = fixture.Create<string list>()
  *)
 ```
 
-## Declarative usage
+### Declarative usage
 
 The above can also be written declaratively using [AutoData](http://blog.ploeh.dk/2010/10/08/AutoDataTheoriesWithAutoFixture.aspx) theories. Here's an example for xUnit.net:
 
@@ -132,7 +132,7 @@ let ``Request a list of strings`` (xs : string list) =
     ()
 ```
 
-## Credits
+### Credits
 
 * The fact that AutoFixture can't currently create F# lists out of the box was put to my attention by [Rune Ibsen](https://twitter.com/runeibsen).
 * The customization in this post is based on a similar one that [Rune Ibsen](https://twitter.com/runeibsen) showed me.

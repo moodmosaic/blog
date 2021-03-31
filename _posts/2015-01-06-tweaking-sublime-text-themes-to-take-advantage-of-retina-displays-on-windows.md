@@ -11,11 +11,11 @@ Sublime Text already supports Retina displays on OS X, however it seems that the
 
 **Update – Monday, November 14, 2016**: To make this a whole lot easier, I've forked [buymeasoda/soda-theme](https://github.com/buymeasoda/soda-theme) into [moodmosaic/soda-theme](https://github.com/moodmosaic/soda-theme). If you clone moodmosaic/soda-theme, it will show nicely on Retina displays on Windows.
 
-## Problem
+### Problem
 
 You experience fuzzy fonts when using Sublime Text with Retina displays on Windows, [even after updating to a newer version of Sublime Text](http://sublimetext.userecho.com/topic/106898-text-is-fuzzy-on-a-high-dpi-display-windows/).
 
-## Manual solution
+### Manual solution
 
 * Navigate to the theme's root folder
 * Search for images matching the pattern `*@2x.*`
@@ -23,7 +23,7 @@ You experience fuzzy fonts when using Sublime Text with Retina displays on Windo
 
 <div class="message"><p>The above technique has been <b>tested with</b> Sublime Text's <b>Default Theme</b>, and <b>Soda Theme</b> (both dark and light variants).</p><p>Soda Theme requires the following images to be excluded from the above process: tab-active, tab-hover, tab-inactive, tabset-background.</p></div>
 
-## Automated solution
+### Automated solution
 
 If done manually, this can take some time. – Here is a way to **automate this with F#**:
 
@@ -77,7 +77,7 @@ namespace FSI_0002.Sublime.Text.Windows
 
 Once you `open Sublime.Text.Windows`, execute the `patch` function by supplying a value for `theme`.
 
-### Soda Theme
+#### Soda Theme
 
 ```fsharp
 let sodaTheme = {

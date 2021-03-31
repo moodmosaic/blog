@@ -13,7 +13,7 @@ As of today, in Visual Studio 2012 the *Run Code Analysis* command is not availa
 
 Code Analysis can be used as a stand-alone tool with the [FxCopCmd](http://msdn.microsoft.com/en-us/library/bb429474.aspx) command-line application and  it is also possible to be included to automated build processes such is [MSBuild](http://msdn.microsoft.com/en-us/library/wea2sca5.aspx).
 
-## Enable Code Analysis in MSBuild
+### Enable Code Analysis in MSBuild
 
 To enable Code Analysis in MSBuild, include the following elements in the project file:
 
@@ -23,11 +23,11 @@ To enable Code Analysis in MSBuild, include the following elements in the projec
 <CodeAnalysisRuleSet>My.ruleset</CodeAnalysisRuleSet>
 ```
 
-## Problem
+### Problem
 
 Unfortunately, even with the above elements, Code Analysis will not run for F# projects during the MSBuild process.
 
-## Solution
+### Solution
 
 Edit the Microsoft.CodeAnalysis.Targets file which is located at:
 C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v11.0\CodeAnalysis

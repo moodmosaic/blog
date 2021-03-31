@@ -146,7 +146,7 @@ let private convert candidate =
     | _                  -> unitProperty
 ```
 
-## Sample output ##
+### Sample output ###
 
 ```fsharp
 fun x -> x > 3 ==> if x > 3 then true else false
@@ -191,7 +191,7 @@ val it : Property.Result list =
 >
 ```
 
-## Tip: Using Lazy Computations
+### Tip: Using Lazy Computations
 
 By default, F# expressions are evaluated *exactly once* when defined, however sometimes *at most once* semantics are needed, as shown below:
 

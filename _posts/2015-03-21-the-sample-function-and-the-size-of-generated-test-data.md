@@ -16,7 +16,7 @@ It's signature is:
 sample :: Show a => Gen a -> IO ()
 ```
 
-### Example ###
+#### Example ####
 
 Using the [`choose`](https://hackage.haskell.org/package/QuickCheck-2.8/docs/src/Test-QuickCheck-Gen.html#choose) generator we can use `sample` to generate random integers in the inclusive range [0, 9] and print them:
 
@@ -40,7 +40,7 @@ Output:
 1
 ```
 
-## The *sample* function defined in FsCheck ##
+### The *sample* function defined in FsCheck ###
 
 FsCheck also defines a `sample` function, though it behaves in a slightly different way, as it takes two additional arguments `size` and `n`:
 
@@ -53,7 +53,7 @@ val sample : size:int -> n:int -> gn:Gen<'a> -> 'a list
 
 Let's pause here and run `sample` by supplying different values for `size`.
 
-### Using 0 for *size* ###
+#### Using 0 for *size* ####
 
 ```fsharp
 
@@ -97,7 +97,7 @@ Length = 11
     [10]: 0
 ```
 
-### Using 1000 for *size* ###
+#### Using 1000 for *size* ####
 
 ```fsharp
 open FsCheck.Gen
@@ -146,11 +146,11 @@ At this point, we observed that if a generator ignores *size* (e.g. as `choose` 
 
 ---
 
-## Just *sample* with a different generator, then. ##
+### Just *sample* with a different generator, then. ###
 
 Instead of the `choose` generator, the following example uses `generate<int>`.
 
-### Using 0 for *size* ###
+#### Using 0 for *size* ####
 
 ```fsharp
 open FsCheck.Arb
@@ -179,7 +179,7 @@ Length = 11
 
 That's because `generate<int>` takes `size` into account.
 
-### Using 1000 for *size* ###
+#### Using 1000 for *size* ####
 
 ```fsharp
 open FsCheck.Arb
@@ -208,13 +208,13 @@ Length = 11
 
 ---
 
-## How to *always* control the size of test data, then? ##
+### How to *always* control the size of test data, then? ###
 
 That seems to be the purpose of the `sized` function.
 
 For the sake of completeness, here's the original example with `choose` rewritten to use `sized`:
 
-### *sample* and *choose*, using 0 for *size* ###
+#### *sample* and *choose*, using 0 for *size* ####
 
 ```fsharp
 open FsCheck.Gen
@@ -240,7 +240,7 @@ Length = 11
     [10]: 0
 ```
 
-### *sample* and *choose*, using 1000 for *size* ###
+#### *sample* and *choose*, using 1000 for *size* ####
 
 ```fsharp
 open FsCheck.Gen
@@ -266,7 +266,7 @@ Length = 11
     [10]: -423
 ```
 
-## References ##
+### References ###
 
 * QuickCheck
   * [Size in QuickCheck 1 (source code)](http://hackage.haskell.org/package/QuickCheck-1.2.0.1/docs/src/Test-QuickCheck.html#Config)
@@ -276,7 +276,7 @@ Length = 11
   * [The size of test data](https://fsharp.github.io/FsCheck/TestData.html)
   * [Purpose of 'size' parameter in Gen.sample](https://github.com/fsharp/FsCheck/issues/87)
 
-## Appendix ##
+### Appendix ###
 
 The above F# examples use the backward pipe `<|` operator to look similar to the Haskell examples. In F#, [it's idiomatic to use the forward pipe operator](http://stackoverflow.com/a/1459204/467754) instead.
 

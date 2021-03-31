@@ -44,7 +44,7 @@ val it : String = "Ðê
 
 ```
 
-## Customizations ##
+### Customizations ###
 
 Generarting **upper-case strings**
 

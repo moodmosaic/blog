@@ -7,7 +7,7 @@ tags:
   - Miscellaneous
 ---
 
-## Bitcoin, Ethereum, Cardano, NEO, etc.
+### Bitcoin, Ethereum, Cardano, NEO, etc.
 
 - A system for securely transmitting and storing value ([whitepaper](https://bitcoin.org/bitcoin.pdf))
 - [Reference implementation (first version)](https://github.com/bitcoin/bitcoin/commit/4405b78d6059e536c36974088a8ed4d9f0f29898)
@@ -39,7 +39,7 @@ tags:
       - *DApp = frontend + contracts*
  - This effort will also allow replacement of typical content delivery networks ([CDN](https://en.wikipedia.org/wiki/Content_delivery_network)) with a distributed hash table ([DHT](https://en.wikipedia.org/wiki/Distributed_hash_table)) pointing to file blobs, much how BitTorrent works.
 
-## Hash function
+### Hash function
 
 - [Definition](https://en.wikipedia.org/wiki/Hash_function)
 - Properties
@@ -50,7 +50,7 @@ tags:
   - *Variant: SHA3-256*
 - [Message digest](https://en.wikipedia.org/wiki/Cryptographic_hash_function): The output of a one-way function when applied to a stream of data.
 
-## Merkle tree
+### Merkle tree
 
 - [Definition](https://en.wikipedia.org/wiki/Merkle_tree)
 - [Reference implementation](https://github.com/adjoint-io/merkle-tree) (Adjoint)
@@ -65,7 +65,7 @@ tags:
   - Consists of a chunk, the root hash of the tree, and the "branch" consisting of all of the hashes going up along the path from the chunk to the root. Someone reading the proof can verify that the hashing, at least for that branch, is consistent going all the way up the tree, and therefore that the given chunk actually is at that position in the tree.
     - The Bitcoin blockchain uses Merkle proofs in order to store the transactions in every block.
 
-## Finite field
+### Finite field
 
 - [Definition](https://en.wikipedia.org/wiki/Finite_field)
 - A finite set of positive integers of which multiplication, division, and substraction, is defined and done with a modulus.
@@ -77,7 +77,7 @@ tags:
   - 3 * 4 = 12 % 7 = 5 *(7, because we have 7 elements)*
 - Watch [this](https://youtube.com/watch?v=wjyiOXRuUdo) talk by Thomas Dietert
 
-## Elliptic-curve cryptography
+### Elliptic-curve cryptography
 
 - [Definition](https://en.wikipedia.org/wiki/Elliptic-curve_cryptography)
 - y<sup>2</sup> = χ<sup>3</sup> + αχ + β
@@ -92,7 +92,7 @@ tags:
     - is to mathematically prove, using the public key of the signer, that the signature was produced using the data and private key
 - [Cryptonite](https://hackage.haskell.org/package/cryptonite) (Haskell library)
 
-## Blockchain
+### Blockchain
 
 - A distributed public ledger which securely records and facilitates irreversible peer-to-peer transactions which cannot be easily amended.
 - A replicated [finite-state machine](https://en.wikipedia.org/wiki/Finite-state_machine) maintaining a cryptographically verifiable immutable history of
@@ -176,7 +176,7 @@ a transaction database shared by all nodes participating in a system based on th
     - Bitcoin uses a simple broadcast network to propagate Transactions and Blocks. All communications are done over TCP
     - See **Bitcoin network** <https://en.wikipedia.org/wiki/Bitcoin_network>
 
-## Credits, References
+### Credits, References
 
 - [What is blockchain and why do you need it?](https://adjoint.io/posts/database_blockchain.html) -- Adjoint Blog
 - [Distributed ledger technology - A disrupting technology of trust](https://adjoint.io/posts/disrupting-technology-of-trust.html) -- Adjoint Blog

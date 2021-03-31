@@ -241,7 +241,7 @@ Running build failed.
 
 *For convenience, all the above are also [available on GitHub](https://github.com/moodmosaic/quickcheck-fscheck-samples/).*
 
-### References ###
+#### References ####
 
 * [Don Syme's self-contained sample gist](https://gist.github.com/dsyme/9b18608b78dccf92ba33)
 * [Fake](http://fsharp.github.io/FAKE/)

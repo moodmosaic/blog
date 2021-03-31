@@ -19,7 +19,7 @@ var uri = fixture.CreateAnonymous<Uri>();
 <p>By default, both the <strong>scheme name</strong>&#0160;and the <strong>authority</strong>&#0160;part are obtained from the context. A custom&#0160;<em>UriScheme</em> class represents the URI scheme name while the authority&#0160;part is an anonymous variable of type string.</p>
 <p>Example URIs along with their component parts can be found&#0160;<a href="http://en.wikipedia.org/wiki/URI_scheme#Examples" target="_blank">here</a>.&#0160;Since both parts are received from the context, they can be easily customized.</p>
 
-## Supplying a custom scheme name
+### Supplying a custom scheme name
 
 <p>The UriScheme type provides by default the name <em>&quot;scheme&quot;.</em>&#0160;However, by injecting a specific instance of this type we can easily override it with something else (e.g. &quot;<em>http&quot;</em>).</p>
 
@@ -30,7 +30,7 @@ var uri = fixture.CreateAnonymous<Uri>();
 // Prints -> http://abc9f406-16f2-4e06-b6f9-0750dc115ac3/
 ```
 
-## Supplying a custom authority
+### Supplying a custom authority
 
 <p>This is preferred only when each test constructs its own instance of the Fixture type since this change will apply for all the strings received from the context.</p>
 
@@ -44,7 +44,7 @@ var uri = fixture.CreateAnonymous<Uri>();
 // Prints -> scheme://autofixture.codeplex.com/
 ```
 
-## Supplying a custom Uri
+### Supplying a custom Uri
 
 <p>As with any other generated specimen, it is possible to completely take over it&#39;s creation. Using a custom&#0160;ISpecimenBuilder type, each time a Uri is requested, a predefined Uri will be returned.</p>
 

@@ -14,13 +14,13 @@ While F# is first-class citizen in Visual Studio, there's also support for text 
 
 <div class="message"><p>There's also support for MonoDevelop and Xamarin Studio, which are IDEs. See the <a href="http://fsharp.org/guides/mac-linux-cross-platform/index.html#editing">Cross-Platform Development with F#</a> for more details.</p></div>
 
-## Beyond Visual Studio ##
+### Beyond Visual Studio ###
 
 In my experience so far, getting F# to work outside Visual Studio [requires](https://github.com/fsharp/fsharpbinding/blob/master/emacs/README.md#installation) [quite](https://github.com/fsharp/fsharpbinding/blob/master/vim/README.mkd#installing) an [effort](https://github.com/fsharp/fsharpbinding/blob/master/sublimetext/README.md#general-steps).
 
 There are always a couple of steps to be done, and basic knowledge of the target text editor is also assumed.
 
-## A flexible, easy way, with Spacemacs ##
+### A flexible, easy way, with Spacemacs ###
 
 I learned Spacemacs in a [tweet by Chris Bowdon](https://twitter.com/nikosbaxevanis/status/588088768869072897). Spacemacs is essentially [an Emacs configuration](https://github.com/syl20bnr/spacemacs#batteries-included).
 
@@ -30,7 +30,7 @@ I learned Spacemacs in a [tweet by Chris Bowdon](https://twitter.com/nikosbaxeva
   <p><strong>Emacs for Windows</strong>, is <a href="ftp://ftp.gnu.org/gnu/emacs/windows/">available</a>. Unzip to a folder and run. – An <em>.emacs.d</em> folder is automatically created in ~/AppData/Roaming/, storing all Emacs settings.</p>
 </div>
 
-### Install Spacemacs ###
+#### Install Spacemacs ####
 
 Open a Git Bash command prompt window:
 
@@ -45,7 +45,7 @@ git clone --recursive http://github.com/syl20bnr/spacemacs ~/AppData/Roaming/.em
 
 Then, launch Emacs and Spacemacs will automatically load, installing all required packages. After that, Emacs must be restarted.
 
-### Enable F# ###
+#### Enable F# ####
 
 After opening Emacs, it should show `~/.spacemacs` under Recent files. – Click on that file to open it.
 
@@ -68,7 +68,7 @@ index d6cedae..a47936c 100644
 
 Then hit CTRL+C & CTRL+C, and the Spacemacs layer for F# will install itself.
 
-### Screenshots ###
+#### Screenshots ####
 
 ![Image](http://nikosbaxevanis.com/images/articles/2015-04-25-fsharp-on-emacs-with-spacemacs-04.png)
 

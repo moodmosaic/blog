@@ -13,7 +13,7 @@ tags:
 
 Among the many changes in ASP.NET MVC 4 RC, there is now added support for releasing object graphs, resolved on each request, using dependency scopes.
 
-## Creating a dependency scope per request
+### Creating a dependency scope per request
 
 Since the IHttpControllerFactory interface has been [removed](http://aspnetwebstack.codeplex.com/SourceControl/network/forks/jongalloway/aspnetwebstack/changeset/changes/f6a7f35302ba), the recommendation (from the [release notes](http://www.asp.net/whitepapers/mvc4-release-notes#_Toc303253817)) is to use the [IHttpControllerSelector](http://aspnetwebstack.codeplex.com/SourceControl/changeset/view/a1b7c04f7227#src%2fSystem.Web.Http%2fDispatcher%2fIHttpControllerSelector.cs) interface to control [IHttpController](http://aspnetwebstack.codeplex.com/SourceControl/changeset/view/a1b7c04f7227#src%2fSystem.Web.Http%2fControllers%2fIHttpController.cs) selection and the [IHttpControllerActivator](http://aspnetwebstack.codeplex.com/SourceControl/changeset/view/a1b7c04f7227#src%2fSystem.Web.Http%2fDispatcher%2fIHttpControllerActivator.cs) interface to control IHttpController activation.
 

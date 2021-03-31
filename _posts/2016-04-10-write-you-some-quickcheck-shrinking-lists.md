@@ -12,7 +12,7 @@ This post is part of a [series of posts on implementing a minimal version of Qui
 
 In the [previous](/2016/03/17/write-you-some-quickcheck-shrinking-numbers) post I've ported the function from QuickCheck that shrinks numbers. In this post I'll be doing the same for lists.
 
-## Prelude
+### Prelude
 
 QuickCheck shrinks lists by dropping elements from them, given a shrinking function for individual elements.
 
@@ -26,7 +26,7 @@ shrinkList :: (a -> [a]) -> [a] -> [[a]]
 
 ```
 
-## Shrinking a list of integers
+### Shrinking a list of integers
 
 To shrink a list of integers, say `[1,2,3]` we need
 
@@ -71,7 +71,7 @@ shrinkList :: (a -> [a]) -> [a] -> [[a]]
 [[],[2,3],[1,3],[1,2],[0,2,3],[1,0,3],[1,1,3],[1,2,0],[1,2,2]]
 ```
 
-## Doing similar in F# ##
+### Doing similar in F# ###
 
 A possible shrinking function for lists in F# can be based on the following Haskell code snippet, taken from QuickCheck 2.8.2:
 

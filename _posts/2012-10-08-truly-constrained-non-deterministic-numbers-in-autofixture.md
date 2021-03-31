@@ -38,7 +38,7 @@ Once the customization has been applied to a `Fixture` instance subsequent reque
 
 <p class="message">The default ranges are [1, 255], [256, 32767], and [32768, 2147483647].</p>
 
-## Supplying a custom range
+### Supplying a custom range
 
 To supply a custom range, customize an instance of the Fixture class with an instance of the `RandomNumericSequenceGenerator` and pass to its constructor a sequence of integer numbers (e.g. `-100, 100, 255`).
 

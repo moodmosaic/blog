@@ -9,7 +9,7 @@ tags:
     - Fare
 ---
 
-## Prelude ##
+### Prelude ###
 
 In Haskell, there's the [quickcheck-regex](https://hackage.haskell.org/package/quickcheck-regex) package, by [Audrey (唐鳳) Tang](https://www.linkedin.com/in/tangaudrey), which allows to write and execute this:
 
@@ -24,7 +24,7 @@ It exports a `matching` function that turns a Regular Expression into a [DFA](ht
 matching :: String -> Gen String
 ```
 
-## FsCheck ##
+### FsCheck ###
 
 In F#, a similar generator for [FsCheck](http://fscheck.github.io/FsCheck) can be written as:
 
@@ -44,7 +44,7 @@ The `matching` function uses the [.NET port](https://www.nuget.org/packages/Fare
 val matching : pattern:string -> Gen<string>
 ```
 
-### Use in F# Interactive ###
+#### Use in F# Interactive ####
 
 Here's a way to generate regex-constrained strings with FsCheck in F# Interactive:
 
@@ -107,7 +107,7 @@ let c = generate (matching "[xX][0-9a-z]")
 
 That's because `matching` takes [the size of generated test data](http://blog.nikosbaxevanis.com/2015/03/21/the-sample-function-and-the-size-of-generated-test-data/) into account.
 
-### Use in FsCheck with xUnit.net ###
+#### Use in FsCheck with xUnit.net ####
 
 Finally, here's a [quantified property](https://fscheck.github.io/FsCheck/Properties.html) scenario using FsCheck with [xUnit.net](https://xunit.github.io/):
 

@@ -9,7 +9,7 @@ tags:
 
 In most common scenarios, README files can have one of the following layouts.
 
-## Basic
+### Basic
 
 * Introduction
 * Where to download?
@@ -23,7 +23,7 @@ The basic layout might seems too much in the beginning, but I think this is quit
 
 <p class="message">Being able to scan through each of these sections saves a lot of time.</p>
 
-## Extended
+### Extended
 
 * *Basic* +
 * What problem does the project address?
@@ -32,7 +32,7 @@ The basic layout might seems too much in the beginning, but I think this is quit
 
 Including these additional sections in the README almost **eliminates the need to write** an introductory **blog post** about the project.
 
-## Mature
+### Mature
 
 * *Extended* +
 * Open source maturity level<sup>1</sup>

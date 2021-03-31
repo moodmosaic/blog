@@ -12,7 +12,7 @@ This post describes how to use Mountebank imposters as Mock Objects/Test Spies v
 
 <p class="message">As a learning exercise, for mountebank, but also for F#, I wrote a few F# functions to communicate with Mountebank imposters via HTTP and a few passing tests. The rest of the post describes what I learned so far.</p>
 
-## What is Mountebank?
+### What is Mountebank?
 
 Mountebank is a tool (and currently the only one) which provides multi-protocol, multi-language, on-demand, [Test Doubles](http://xunitpatterns.com/Test%20Double.html) over the wire, named *imposters*.
 
@@ -25,11 +25,11 @@ According to the [official website](http://www.mbtest.org/), Mountebank currentl
 * tcp
 * smtp
 
-## Smtp example
+### Smtp example
 
 Imposters can act as Mocks, as well as Stubs. For Mocks, the Mountebank website contains a [mocking example](http://www.mbtest.org/docs/api/mocks) for the STMP protocol.
 
-### Scenario: SMTP client transmits a mail message; verify the subject of the message.
+#### Scenario: SMTP client transmits a mail message; verify the subject of the message.
 
 The Mountebank server runs at 192.168.1.3 on port 2525 in a Unix-like OS. During the setup phase an imposter is created via HTTP POST specifying the SMTP protocol and port (4547) in the request body:
 
@@ -243,7 +243,7 @@ let sendMailTransmitsCorrectSubject () =
 
 <p class="message">The Mountebank website uses the <a href="http://xunitpatterns.com/Mock%20Object.html">Mock Object</a> terminology when verifying <a href="http://xunitpatterns.com/indirect%20output.html">indirect outputs</a>. However, the examples shown here don't setup expectations - instead they only verify <i>captured</i>-indirect outputs of the SUT; thus the <a href="http://xunitpatterns.com/Test%20Spy.html">Test Spy</a> terminology is used in code.</p>
 
-### Scenario: SMTP client transmits correct number of requests.
+#### Scenario: SMTP client transmits correct number of requests.
 
 In this case, it's only necessary to verify that the SMTP request on the imposter was made only once:
 

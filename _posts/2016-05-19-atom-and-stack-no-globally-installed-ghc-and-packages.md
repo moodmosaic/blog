@@ -12,7 +12,7 @@ When doing Haskell programming
 * [Stack](http://www.haskellstack.org/) keeps my operating system clean of globally installed compilers and packages
 * [atom-haskell](https://atom.io/users/atom-haskell) allows me to use [ghc-mod](https://hackage.haskell.org/package/ghc-mod), [hlint](https://hackage.haskell.org/package/hlint), and [stylish-haskell](https://hackage.haskell.org/package/stylish-haskell) without leaving the editor
 
-## Stack
+### Stack
 
  * [Get Stack](http://docs.haskellstack.org/en/stable/README/#how-to-install)
  * Go to some folder (could be empty, or an existing project)
@@ -46,7 +46,7 @@ stack ghc, stack ghci, stack runghc, or stack exec
 ```
  * In the same directory as `Stack.yaml` execute `stack build ghc-mod hlint stylish-haskell`
 
-## atom-haskell
+### atom-haskell
 
  * Install [Atom](https://atom.io/)
  * Install [atom-haskell](https://atom.io/users/atom-haskell) via [apm](https://github.com/atom/apm): `apm install language-haskell ide-haskell ide-haskell-cabal haskell-ghc-mod autocomplete-haskell haskell-pointfree haskell-debug`

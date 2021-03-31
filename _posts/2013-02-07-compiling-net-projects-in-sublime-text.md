@@ -13,13 +13,13 @@ tags:
 
 By adding [MSBuild](http://msdn.microsoft.com/en-us/library/wea2sca5.aspx) as a new Build System, it is possible to build Visual Studio projects and solutions without the Visual Studio IDE installed.
 
-## Adding the Source Code
+### Adding the Source Code
 
 <p class="message">The following steps require a folder with MSBuild project files. In order to be pragmatic, the custom Build System is going to compile the source code of <a href="https://github.com/AutoFixture/AutoFixture">AutoFixture</a>.</p>
 
 Go to `File` menu, click `Open Folder...` and select the root folder of the project to be compiled.
 
-## Adding the new Build System
+### Adding the new Build System
 
 Go to `Tools` menu, `Build System`, and click `New Build System...`
 
@@ -38,7 +38,7 @@ Go to `Tools` menu, `Build System`, and select `AutoFixture`.
 
 <p class="message">The above steps are per MBSuild project file. Repeat the above steps by creating a Build System per MSBuild project file.</p>
 
-## Running the Build
+### Running the Build
 
 Go to `Tools` menu, and select `Build`. Alternatively, use the `Ctrl+B` command.
 
@@ -46,7 +46,7 @@ Go to `Tools` menu, and select `Build`. Alternatively, use the `Ctrl+B` command.
 
 In the above screenshot, on line *38* a semicolon has been intentionally removed for the demo. After running a build, the compiler detects the missing semicolon.
 
-## What about the Tests?
+### What about the Tests?
 
 Currently, the easiest way to run the tests is by using a command-line interface version of the test runner.
 

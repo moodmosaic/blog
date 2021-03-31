@@ -14,7 +14,7 @@ This post describes how to configure [Sublime Text](http://www.sublimetext.com/)
 * Download Sublime Text from [here](http://www.sublimetext.com/2).
 * Install on Windows or OS X (it doesn't really matter).
 
-## Install Package Manager
+### Install Package Manager
 
 * Run Sublime Text
 * Open the Sublime Text Console. This is accessed via the *ctrl + `* shortcut.
@@ -23,7 +23,7 @@ This post describes how to configure [Sublime Text](http://www.sublimetext.com/)
 
 <p class="message">We have just installed Sublime Package Control - A full-featured package manager that helps discovering, installing, updating and removing packages for Sublime Text 2. It features an automatic updater and supports GitHub, BitBucket and a full channel/repository system.</p>
 
-## Configure Statement Completion
+### Configure Statement Completion
 
 * Press *ctrl + shift + p* (Windows, Linux) or *cmd + shift + p* (OS X).
 * Type *Install Package* and select it.
@@ -32,7 +32,7 @@ This post describes how to configure [Sublime Text](http://www.sublimetext.com/)
 
 * Select `SublimeCodeIntel` from the list of packages.
 
-## Configure Statement Completion for Python projects in virtualenv
+### Configure Statement Completion for Python projects in virtualenv
 
 <p class="message">You may skip this if you are not using virtualenv.</p>
 
@@ -53,7 +53,7 @@ Note that `VirtualEnvName` is the name of the virtualenv were the files of the p
 
 The project itself is in `~/Documents/Projects/VirtualEnvName/ProjectName`
 
-## Statement Completion in action
+### Statement Completion in action
 
 A screenshot for jQuery (note also the [*very* cool theme](https://github.com/buymeasoda/soda-theme))
 <p><img src="http://farm9.staticflickr.com/8357/8397459957_e121e4b04c_o.png" alt="A screenshot for jQuery"/></p>

@@ -14,7 +14,7 @@ Both QuickCheck and FsCheck provide default generators for primitive types, but 
 
 Generators have types of the form `Gen a`, where `a` is the type of the test data to be produced.
 
-## QuickCheck ##
+### QuickCheck ###
 
 Generators are built from the function [`choose`](https://hackage.haskell.org/package/QuickCheck-2.7.6/docs/src/Test-QuickCheck-Gen.html#choose), which makes a random choice of a value from a range, with a uniform distribution in the closed interval *[a, a]*.
 
@@ -29,7 +29,7 @@ return :: a -> Gen a
 (>>=) :: Gen a -> (a -> Gen b) -> Gen b
 ```
 
-### Example: Take a random element from a list ###
+#### Example: Take a random element from a list ####
 
 Using *do* notation:
 
@@ -52,7 +52,7 @@ takeFromList xs =
     choose (0, length xs - 1) >>= \i -> return $ xs !! i
 ```
 
-## FsCheck ##
+### FsCheck ###
 
 Similarly, FsCheck defines the type `gen` as a [computation expression](https://msdn.microsoft.com/en-us/library/dd233182.aspx).
 
@@ -62,7 +62,7 @@ The `choose` function is non-generic; instead it generates a [32-bit signed inte
 val choose : l:int * h:int -> Gen<int>
 ```
 
-### Example: Take a random element from a list ###
+#### Example: Take a random element from a list ####
 
 ```fsharp
 open FsCheck
@@ -80,7 +80,7 @@ val takeFromList :  xs:'a list -> Gen<'a> // F#
     takeFromList :: [a]        -> Gen a   // Haskell
 ```
 
-### References ###
+#### References ####
 
 * QuickCheck
   * [QuickCheck: A Lightweight Tool for Random Testing of Haskell Programs](http://www.cs.tufts.edu/~nr/cs257/archive/john-hughes/quick.pdf)

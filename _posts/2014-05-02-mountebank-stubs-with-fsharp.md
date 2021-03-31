@@ -12,11 +12,11 @@ The [previous post](http://nikosbaxevanis.com/blog/2014/04/22/mountebank-mocks-w
 
 This post describes how to use Mountebank imposters as Stubs via HTTP, xUnit.net, and F#.
 
-## Scenario
+### Scenario
 
 The [Stub example](http://www.mbtest.org/docs/api/stubs) in Mountebank API documentation simulates a RESTful endpoint that creates a Customer, the first time it's called, and returns a 400 Bad Request the second time it's called with the same Customer because the email address already exists.
 
-## Intercepting imposter Stub setup
+### Intercepting imposter Stub setup
 
 When using Mountebank imposters as Stubs we typically care about configuring the Stub's return values - the rest of the [fixture setup](http://xunitpatterns.com/fixture%20setup.html) and [fixture teardown](http://xunitpatterns.com/fixture%20teardown.html) phases are always the same.
 
@@ -56,7 +56,7 @@ type UseImposterStubAttribute (mountebankHost, mountebankPort, imposterJson) =
         |> ignore
 ```
 
-## Using imposter Stubs with xUnit.net
+### Using imposter Stubs with xUnit.net
 
 With xUnit.net and the `UseImposterStubAttribute`, the original [Stub example](http://www.mbtest.org/docs/api/stubs) can be written as:
 
@@ -131,7 +131,7 @@ info: [mb:2525] DELETE /imposters/4545
 
 <p class="message">The important part is that the <code>UseImposterStubAttribute</code> removes the repetitive imposter setup and teardown steps from the actual test.</p>
 
-## TCP Stubs
+### TCP Stubs
 
 [Brandon Byars](http://brandonbyars.com/), the creator of mountebank, provided an [example](http://brandonbyars.com/2014/02/10/stubbing-a-mule-tcp-connector-with-mountebank/) of how to create TCP imposter Stubs with Java.
 

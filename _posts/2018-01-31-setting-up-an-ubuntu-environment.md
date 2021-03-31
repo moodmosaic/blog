@@ -33,7 +33,7 @@ Tried on Ubuntu 16.04.3 LTS (Xenial Xerus)
 - VMware Fusion
   * [Mount Shared Folders](#mount-shared-folders-vmware-fusion)
 
-## Chrome
+### Chrome
 
 ```bash
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
@@ -61,7 +61,7 @@ See also:
 
 [Back to top](#)
 
-## Sublime Text
+### Sublime Text
 
 Install the GPG key:
 
@@ -97,7 +97,7 @@ See also:
 
 [Back to top](#)
 
-## Vim 8
+### Vim 8
 
 There's an unofficial PPA that you can use to easily install Vim 8.0:
 
@@ -126,7 +126,7 @@ See also:
 
 [Back to top](#)
 
-## Git
+### Git
 
 ```bash
 sudo apt-get install git
@@ -150,7 +150,7 @@ See also:
 
 [Back to top](#)
 
-## Jekyll
+### Jekyll
 
 ```bash
 sudo apt-get install ruby ruby-dev
@@ -165,7 +165,7 @@ See also:
 
 [Back to top](#)
 
-## Rouge
+### Rouge
 
 ```bash
 sudo gem install kramdown rouge
@@ -201,7 +201,7 @@ See also:
 
 [Back to top](#)
 
-## Mafia
+### Mafia
 
 Mafia expects both GHC and Cabal to be installed and on the `PATH`.
 
@@ -215,7 +215,7 @@ See also:
 
 [Back to top](#)
 
-## The Haskell Tool Stack
+### The Haskell Tool Stack
 
 ```bash
 curl -sSL https://get.haskellstack.org/ | sh
@@ -228,7 +228,7 @@ See also:
 
 [Back to top](#)
 
-## Visual Studio Code
+### Visual Studio Code
 
 The repository and GPG key can be installed manually with the following script:
 
@@ -250,7 +250,7 @@ See also:
 
 [Back to top](#)
 
-## Mount Shared Folders (VMware Fusion)
+### Mount Shared Folders (VMware Fusion)
 
 ```bash
 cd ~
@@ -263,7 +263,7 @@ See also:
 
 [Back to top](#)
 
-## .NET Core
+### .NET Core
 
 ```bash
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
@@ -280,7 +280,7 @@ See also:
 
 [Back to top](#)
 
-## Mono
+### Mono
 
 ```bash
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
@@ -294,7 +294,7 @@ See also:
 
 [Back to top](#)
 
-## F# ##
+### F# ###
 
 ```bash
 sudo apt-get update
@@ -306,7 +306,7 @@ See also:
 
 [Back to top](#)
 
-## Dieharder ##
+### Dieharder ###
 
 ```bash
 sudo apt-get install dieharder
@@ -315,7 +315,7 @@ sudo apt-get install dieharder
 See also:
 - <http://manpages.ubuntu.com/manpages/xenial/man1/dieharder.1.html>
 
-## Ration
+### Ration
 
 Quickly resize and position your windows. Similar to [Divvy](http://mizage.com/divvy/), but for Linux.
 
@@ -329,7 +329,7 @@ See also:
 
 [Back to top](#)
 
-## APT maintenance
+### APT maintenance
 
 ```bash
 sudo apt-get check

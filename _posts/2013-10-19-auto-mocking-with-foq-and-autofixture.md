@@ -18,7 +18,7 @@ This brings the total number of Auto-mocking extensions for AutoFixture up to fi
 * [AutoFixture.AutoNSubstitute](http://nuget.org/packages/AutoFixture.AutoNSubstitute)
 * [AutoFixture.AutoFoq](http://nuget.org/packages/AutoFixture.AutoFoq)
 
-## Install
+### Install
 
 To install AutoFixture with Auto Mocking using Foq, run the following command in the Package Manager Console:
 
@@ -32,7 +32,7 @@ To use it, add an `AutoFoqCustomization` to the `Fixture` instance:
 let fixture = Fixture().Customize(AutoFoqCustomization())
 ```
 
-## Usage
+### Usage
 
 In the test below the mocked instance is created automatically by Foq:
 

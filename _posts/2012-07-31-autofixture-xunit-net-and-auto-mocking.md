@@ -42,7 +42,7 @@ AutoFixture allows us to easily define custom DataAttribute derived types:
  * By deriving from AutoDataAttribute and passing to the base constructor a customization that enables auto mocking with Moq, Rhino Mocks, FakeItEasy, or NSubstitute.
  * By deriving from CompositeDataAttribute and passing to the base constructor an array of DataAttribute derived type instances, e.g. an instance of `InlineDataAttribute` and an instance of `AutoDataAttribute` derived type.
 
-## Auto Mocking using Moq
+### Auto Mocking using Moq
 
 To install AutoFixture with Auto Mocking using Moq, run the following command in the Package Manager Console:
 
@@ -64,7 +64,7 @@ public void WithMoq(
 }
 ```
 
-### Output
+#### Output
 
 ``` text
 AutoMoqData:
@@ -86,7 +86,7 @@ InlineAutoMoqData:
   a = Castle.Proxies.AbstractTypeProxy
 ```
 
-### Source code
+#### Source code
 
 ``` csharp
 internal class AutoMoqDataAttribute : AutoDataAttribute
@@ -109,7 +109,7 @@ internal class InlineAutoMoqDataAttribute : CompositeDataAttribute
 
 More information on AutoFixture with Auto Mocking using Moq can be found at [AutoFixture as an auto-mocking container](http://blog.ploeh.dk/2010/08/19/AutoFixtureAsAnAutomockingContainer.aspx) blog post.
 
-## Auto Mocking using Rhino Mocks
+### Auto Mocking using Rhino Mocks
 
 To install AutoFixture with Auto Mocking using Rhino Mocks, run the following command in the Package Manager Console:
 
@@ -131,7 +131,7 @@ public void WithRhinoMocks(
 }
 ```
 
-### Ouput
+#### Ouput
 
 ``` text
 AutoRhinoMockData:
@@ -153,7 +153,7 @@ InlineAutoRhinoMockData:
   a = Castle.Proxies.AbstractTypeProxy5a86172bbda14cc098b4c675c5b7e555
 ```
 
-### Source code
+#### Source code
 
 ``` csharp
 internal class AutoRhinoMockDataAttribute : AutoDataAttribute
@@ -176,7 +176,7 @@ internal class InlineAutoRhinoMockDataAttribute : CompositeDataAttribute
 
 More information on AutoFixture with Auto Mocking using Rhino Mocks can be found at [Rhino Mocks-based auto-mocking with AutoFixture](http://blog.ploeh.dk/2010/11/13/RhinoMocksbasedAutomockingWithAutoFixture.aspx) blog post.
 
-## Auto Mocking using FakeItEasy
+### Auto Mocking using FakeItEasy
 
 To install AutoFixture with Auto Mocking using FakeItEasy, run the following command in the Package Manager Console:
 
@@ -198,7 +198,7 @@ public void WithFakeItEasy(
 }
 ```
 
-### Output
+#### Output
 
 ``` text
 AutoFakeItEasyData:
@@ -220,7 +220,7 @@ InlineAutoFakeItEasyData:
   a = Faked AbstractType
 ```
 
-### Source code
+#### Source code
 
 ``` csharp
 internal class AutoFakeItEasyDataAttribute : AutoDataAttribute
@@ -243,7 +243,7 @@ internal class InlineAutoFakeItEasyDataAttribute : CompositeDataAttribute
 
 More information on AutoFixture with Auto Mocking using FakeItEasy can be found at [Auto-Mocking with FakeItEasy and AutoFixture](http://nikosbaxevanis.com/2011/12/14/auto-mocking-with-fakeiteasy-and-autofixture/) blog post.
 
-## Auto Mocking using NSubstitute
+### Auto Mocking using NSubstitute
 
 To install AutoFixture with Auto Mocking using NSubstitute, run the following command in the Package Manager Console:
 
@@ -265,7 +265,7 @@ public void WithNSubstitute(
 }
 ```
 
-### Output
+#### Output
 
 ``` text
 AutoNSubstituteData:
@@ -287,7 +287,7 @@ InlineAutoNSubstituteData:
   a = Castle.Proxies.AbstractTypeProxy
 ```
 
-### Source code
+#### Source code
 
 ``` csharp
 internal class AutoNSubstituteDataAttribute : AutoDataAttribute

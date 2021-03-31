@@ -14,20 +14,20 @@ Usually, every time you create a new Web API project you:
 3. Remove unused assembly references.
 4. Manually edit the `Web.config` file(s) to remove the elements that point to the assemblies which have been removed.
 
-## Solution
+### Solution
 
 Use the [Empty ASP.NET Web API Project Template](https://github.com/moodmosaic/EmptyWebApiProjectTemplate). The Visual Studio extension can be downloaded from [here](http://visualstudiogallery.msdn.microsoft.com/a989a149-4bc3-4292-ac8a-5101ee1722d7).
 
 It will add a new project template `Empty Web API` which includes the following:
 
-### Files
+#### Files
 
 * Properties\AssemblyInfo.cs
 * favicon.ico
 * Global.asax
 * Web.config
 
-### Assemblies
+#### Assemblies
 
 * System
 * System.Core
@@ -40,7 +40,7 @@ It will add a new project template `Empty Web API` which includes the following:
 * System.Web.Routing
 * System.Xml
 
-### NuGet packages
+#### NuGet packages
 
 * Microsoft.AspNet.WebApi.Client
 * Microsoft.AspNet.WebApi.Core
@@ -49,7 +49,7 @@ It will add a new project template `Empty Web API` which includes the following:
 * Microsoft.Net.Http
 * <del>Newtonsoft.Json</del>
 
-### Remarks
+#### Remarks
 
 A `favicon.ico` file is included because the browser requests it so [it's better not to respond with a 404 Not Found](http://developer.yahoo.com/performance/rules.html#favicon).
 

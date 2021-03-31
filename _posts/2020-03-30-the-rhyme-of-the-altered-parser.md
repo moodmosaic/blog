@@ -16,11 +16,11 @@ of Things and Strings!*
 
 This rhyme was made popular, I believe, in [Programming in Haskell](https://www.amazon.com/dp/1316626229/) book by Graham Hutton.
 
-## Altered parsers
+### Altered parsers
 
 I may be coming back later on to add examples and resources on parsers, but now I'd like to mention [Vaibhav Sagar](https://vaibhavsagar.com/)'s post on [Revisiting 'Monadic Parsing in Haskell'](https://vaibhavsagar.com/blog/2018/02/04/revisiting-monadic-parsing-haskell/).
 
-## Altered rhymes
+### Altered rhymes
 
 Once you read Vaibhav Sagar's post, followed by the [HN discussion](https://news.ycombinator.com/item?id=16302014), you'll notice two new rhymes coming out: the rhyme of the *altered* parser, and the rhyme of the *yoctoparsec*.
 

@@ -12,7 +12,7 @@ This post is part of a [series of posts on implementing a minimal version of Qui
 
 In this post I'll be porting the function from QuickCheck that shrinks numbers.
 
-## Prelude ##
+### Prelude ###
 
 When reporting back the actual input that caused a function to fail, QuickCheck first cleans the noise by reporting back the counterexample. — This is called *shrinking*. See how it works [here](http://www.dcc.fc.up.pt/~pbv/aulas/tapf/slides/quickcheck.html#shrinking).
 
@@ -28,7 +28,7 @@ So in F# it can look like this:
 'a -> 'a seq
 ```
 
-## Shrinking numbers ##
+### Shrinking numbers ###
 
 QuickCheck shrinks towards smaller numeric values with the following generic function:
 
@@ -163,7 +163,7 @@ val it : seq<int> = seq [7; 0; -4; -6]
 
 ```
 
-## Shrinking not only integers, but floats, decimals, and so on ##
+### Shrinking not only integers, but floats, decimals, and so on ###
 
 Here is again the `shrinkNumber` number function that was ported from Haskell:
 
