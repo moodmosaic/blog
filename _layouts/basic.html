@@ -8,16 +8,16 @@
     <link rel="stylesheet" href="{{site.baseurl}}/site.css">
 
     <title>
-    {% if page.title %}
-      {{page.title}} - {{site.title}}
-    {% else %}
-      {{site.title}}
-    {% endif %}
+      {% if page.title %}
+        {{page.title}} - {{site.title}}
+      {% else %}
+        {{site.title}}
+      {% endif %}
     </title>
   </head>
 
   <body>
-    <div>
+    <div class="page">
       {{content}}
     </div>
   </body>

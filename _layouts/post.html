@@ -2,30 +2,29 @@
 layout: basic
 ---
 
-<h2 class="title">
-  {{page.title}}
-</h2>
-
-<div class="name">
-  by Nikos Baxevanis
+<div class="page-image">
+  <p>
+    <img src="https://nikosbaxevanis.com/images/1500x500-{{page.id-image}}.jpg"
+      alt="Random image taken from https://www.instagram.com/nikosbaxevanis">
+  </p>
 </div>
 
-<p>
-  <img src="https://nikosbaxevanis.com/images/1500x500-{{page.id-image}}.jpg"
-       alt="Random image taken from https://www.instagram.com/nikosbaxevanis">
-</p>
+<div class="page-words">
+  <h2 class="page-title">
+    {{ page.title }}
+  </h2>
+  <i>
+    {{ page.date | date_to_string }}
+  </i>
+  <div>
+    {{content}}
+  </div>
+</div>
 
-<p>
-  {{ page.date | date_to_string }}
-</p>
-
-{{content}}
-
-<br>
-
-<div>
+<div class="page-twitr">
+  <br>
   <h2>Wish to comment?</h2>
-  <span>
-    You can discuss this post on Twitter or elsewhere with a permalink.
-  </span>
+  <p>
+    <i>{{ page.title }}</i> was written by <a href="https://nikosbaxevanis.com/">Nikos Baxevanis</a>. You can discuss this post on <a href="https://twitter.com/nikosbaxevanis">Twitter</a> or elsewhere with a permalink. <a href="https://github.com/moodmosaic/blog">Found a typo or error?</a>
+  </p>
 </div>
