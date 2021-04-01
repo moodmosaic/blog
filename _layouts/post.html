@@ -13,8 +13,13 @@ layout: basic
   <h2 class="page-title">
     {{ page.title }}
   </h2>
+  <span>
+    {{ page.date | date_to_string }} &ndash;
+  </span>
   <i>
-    {{ page.date | date_to_string }}
+    {% for tag in page.tags %}
+      <a class="tags" href="/tags/#{{tag | downcase}}">
+        #{{tag | downcase}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
   </i>
   <div>
     {{content}}
@@ -23,8 +28,8 @@ layout: basic
 
 <div class="page-twitr">
   <br>
-  <h2>Wish to comment?</h2>
+  <h2>Have feedback?</h2>
   <p>
-    <i>{{ page.title }}</i> was written by <a href="https://nikosbaxevanis.com/">Nikos Baxevanis</a>. You can discuss this post on <a href="https://twitter.com/nikosbaxevanis">Twitter</a> or elsewhere with a permalink. <a href="https://github.com/moodmosaic/blog">Found a typo or error?</a>
+    You can discuss this post on <a href="https://twitter.com/nikosbaxevanis">Twitter</a>, and propose changes on <a href="https://github.com/moodmosaic/blog/blob/master/{{page.path}}">GitHub</a>.
   </p>
 </div>
