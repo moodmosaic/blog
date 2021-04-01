@@ -4,7 +4,7 @@ title: Tweaking Sublime Text themes to take advantage of Retina displays
 summary:
 id-image: 9
 tags:
-    - Sublime&nbsp;Text
+    - SublimeText
 ---
 
 Sublime Text already supports Retina displays on OS X, however it seems that the story is currently a bit different on Windows.

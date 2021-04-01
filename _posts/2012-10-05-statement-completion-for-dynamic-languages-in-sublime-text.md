@@ -4,7 +4,7 @@ title: Statement Completion for Dynamic languages in Sublime Text
 summary:
 id-image: 1
 tags:
-    - Sublime&nbsp;Text
+    - SublimeText
 ---
 
 This post describes how to configure [Sublime Text](http://www.sublimetext.com/) in order to get statement completion for JavaScript, Python, *(and perhaps PHP, RHTML, Smarty, Mason, Node.js, XBL, Tcl, HTML, HTML5, TemplateToolkit, XUL, Django, Perl, and Ruby)*.

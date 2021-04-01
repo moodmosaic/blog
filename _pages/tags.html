@@ -2,34 +2,35 @@
 layout: basic
 permalink: /tags/
 title: Tags
+id-image: 8
 ---
 
-<h2>Tags</h2>
+<h2>{{ page.title }}</h2>
 
 <ul>
   <li><a href="#autofixture">AutoFixture</a></li>
   <li><a href="#xunit.net">xUnit.net</a></li>
   <li><a href="#fare">Fare</a></li>
   <li><a href="#asp.net">ASP.NET</a></li>
-  <li><a href="#sublime&nbsp;text">Sublime Text</a></li>
+  <li><a href="#sublimetext">SublimeText</a></li>
   <li><a href="#miscellaneous">Miscellaneous</a></li>
   <li><a href="#fsharp">F#</a></li>
   <li><a href="#fscheck">FsCheck</a></li>
-  <li><a href="#haskell">Haskell</a></li>
   <li><a href="#quickcheck">QuickCheck</a></li>
+  <li><a href="#haskell">Haskell</a></li>
   <li><a href="#hedgehog">Hedgehog</a></li>
 </ul>
 
 {% for tag in site.tags %}
-  <h3 id={{tag[0] | downcase}}>{{tag[0]}}</h3>
+  <h3 id={{ tag[0] | downcase }}>{{ tag[0] }}</h3>
   {% assign _tags = tag[1] %}
   {% for node in _tags %}
     {% if node.title != null %}
       {% if group == null or group == node.group %}
-      <div>
-        <span class="mono"><a href="{{BASE_PATH}}{{node.url}}">{{node.date | date: "%Y-%m-%d"}}</a></span>
-        - <span>{{node.title}}</span>
-      </div>
+        <div>
+          <a href="{{ BASE_PATH }}{{ node.url }}">
+            {{ node.date | date: "%Y-%m-%d" }}</a> - {{ node.title }}
+        </div>
       {% endif %}
     {% endif %}
   {% endfor %}
