@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: Levels of open-source code
 summary:
 id-image: 1

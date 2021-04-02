@@ -3,26 +3,20 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <link rel="stylesheet" href="{{site.baseurl}}/code.css">
     <link rel="stylesheet" href="{{site.baseurl}}/site.css">
-
-    <title>
-      {% if page.title %}
-        {{page.title}} - {{site.title}}
-      {% else %}
-        {{site.title}}
-      {% endif %}
-    </title>
+    <title>{{page.title}} - {{site.title}}</title>
   </head>
-
   <body>
     <div>
-      <p>
-        <img src="https://nikosbaxevanis.com/images/1500x500-{{page.id-image}}.jpg"
-             alt="Random image taken from https://www.instagram.com/nikosbaxevanis">
-      </p>
-      {{content}}
+      <p><img src="https://nikosbaxevanis.com/images/1500x500-{{page.id-image}}.jpg"
+        alt="Random image taken from https://www.instagram.com/nikosbaxevanis"></p>
+      <h2 style="margin-bottom: 0;">{{ page.title }}</h2>
+      {% if page.date %}
+      <div>{{ page.date | date_to_string }}</div>
+      {% endif %}
+      <div>{{content}}</div>
+      <p>Page generated {{ site.time }}, <a href="https://github.com/moodmosaic/blog/blob/master/{{page.path}}"><code>source available</code></a>.</p>
     </div>
   </body>
 </html>

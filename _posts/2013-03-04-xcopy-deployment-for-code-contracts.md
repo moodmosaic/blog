@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: XCOPY deployment for Code Contracts
 summary:
 id-image: 1

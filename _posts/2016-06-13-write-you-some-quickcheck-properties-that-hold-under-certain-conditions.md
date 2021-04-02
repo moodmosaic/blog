@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: Write you some QuickCheck - Properties that hold under certain conditions
 summary:
 id-image: 7

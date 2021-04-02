@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: Semantic Equality Comparison in F#
 summary:
 id-image: 1

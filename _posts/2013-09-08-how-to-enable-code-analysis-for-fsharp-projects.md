@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: How to enable Code Analysis for F# projects
 summary:
 id-image: 1

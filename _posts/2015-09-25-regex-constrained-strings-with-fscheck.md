@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: Regex-constrained strings with FsCheck
 summary:
 id-image: 9

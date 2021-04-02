@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: Mountebank Mocks with F#
 summary:
 id-image: 3

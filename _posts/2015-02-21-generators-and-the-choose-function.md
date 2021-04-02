@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: Generators and the 'choose' function
 summary:
 id-image: 8

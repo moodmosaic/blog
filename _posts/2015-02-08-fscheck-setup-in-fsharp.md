@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: FsCheck setup in F#
 summary:
 id-image: 8

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: Idioms.FsCheck
 summary:
 id-image: 1

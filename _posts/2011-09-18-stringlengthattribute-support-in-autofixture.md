@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: StringLengthAttribute support in AutoFixture
 summary:
 id-image: 1

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: Tweaking Sublime Text themes to take advantage of Retina displays
 summary:
 id-image: 9

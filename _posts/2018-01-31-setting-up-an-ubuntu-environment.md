@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: Setting up an Ubuntu environment
 summary:
 id-image: 10

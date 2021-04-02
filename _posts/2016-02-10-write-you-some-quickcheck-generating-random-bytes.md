@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: Write you some QuickCheck - Generating random bytes
 summary:
 id-image: 7

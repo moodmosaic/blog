@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : basic
 title  : Fare - Finite Automata/Regex in .NET
 summary: Generate random text matching a given regex
 id-image: 1

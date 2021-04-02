@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: How to configure AutoFoq with Foq's return strategy
 summary:
 id-image: 1

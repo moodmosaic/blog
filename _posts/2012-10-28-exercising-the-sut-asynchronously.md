@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: Exercising the SUT asynchronously
 summary:
 id-image: 1

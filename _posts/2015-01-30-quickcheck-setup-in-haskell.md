@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: QuickCheck setup in Haskell
 summary:
 id-image: 8

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: Using class libraries from different platforms
 summary:
 id-image: 1

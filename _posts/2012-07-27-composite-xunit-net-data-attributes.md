@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: Composite xUnit.net Data Attributes
 summary:
 id-image: 1

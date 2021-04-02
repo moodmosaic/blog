@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: Write you some QuickCheck - Shrinking lists
 summary:
 id-image: 7

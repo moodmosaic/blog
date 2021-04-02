@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: Crypto-notes
 summary:
 id-image: 8

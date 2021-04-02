@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: GitHub README layouts
 summary:
 id-image: 1

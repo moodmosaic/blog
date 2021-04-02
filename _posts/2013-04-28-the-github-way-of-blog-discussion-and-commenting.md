@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: The GitHub way of blog discussion and commenting
 summary:
 id-image: 1

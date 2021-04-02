@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: Short intro to QuickCheck
 summary:
 id-image: 1

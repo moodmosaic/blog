@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: Creating F# lists with AutoFixture
 summary:
 id-image: 4

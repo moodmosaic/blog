@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: How to configure MSBuild to locate the F# build targets
 summary:
 id-image: 1

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: Notes from porting Java code to .NET
 summary:
 id-image: 1

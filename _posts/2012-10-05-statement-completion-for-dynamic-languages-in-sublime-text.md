@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: Statement Completion for Dynamic languages in Sublime Text
 summary:
 id-image: 1

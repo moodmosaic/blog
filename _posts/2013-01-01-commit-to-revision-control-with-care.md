@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: Commit to Revision Control with Care
 summary:
 id-image: 1

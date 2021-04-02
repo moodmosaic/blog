@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: Setting up Haskell on Windows
 summary:
 id-image: 6

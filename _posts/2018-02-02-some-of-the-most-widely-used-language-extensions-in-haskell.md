@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: Top ten desired Haskell language extensions
 summary:
 id-image: 7

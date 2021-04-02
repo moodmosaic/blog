@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: Web API Dependency Resolver with Castle Windsor (Part 2)
 summary:
 id-image: 1

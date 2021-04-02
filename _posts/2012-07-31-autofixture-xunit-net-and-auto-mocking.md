@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: AutoFixture, xUnit.net, and Auto Mocking
 summary:
 id-image: 3

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: Fantomas F# formatter in Visual Studio 2019
 summary:
 id-image: 1

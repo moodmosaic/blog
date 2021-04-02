@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: Why QuickCheck can be useful
 summary:
 id-image: 3

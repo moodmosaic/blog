@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: Truly Constrained Non-Deterministic Numbers in AutoFixture
 summary:
 id-image: 1

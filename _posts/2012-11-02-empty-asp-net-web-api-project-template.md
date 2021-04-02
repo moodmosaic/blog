@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: Empty ASP.NET Web API Project Template
 summary:
 id-image: 1

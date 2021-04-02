@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: In-memory Drain abstractions applied to A Functional Architecture with F#
 summary:
 id-image: 1

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: Observing the size of generated test data
 summary:
 id-image: 8

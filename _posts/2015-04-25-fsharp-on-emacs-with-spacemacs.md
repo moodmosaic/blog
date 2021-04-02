@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: F# on Emacs with Spacemacs
 summary:
 id-image: 3

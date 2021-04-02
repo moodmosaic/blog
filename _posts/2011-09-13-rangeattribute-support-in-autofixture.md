@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: RangeAttribute support in AutoFixture
 summary:
 id-image: 1

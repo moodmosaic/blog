@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: Dynamic Proxy overriding Equals in AutoFixture Likeness
 summary:
 id-image: 1

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: Those pesky build servers
 summary:
 id-image: 13

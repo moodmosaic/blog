@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: Property-based testing becomes easier with Hedgehog
 summary:
 id-image: 5

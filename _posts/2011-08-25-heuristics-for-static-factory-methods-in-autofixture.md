@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: Heuristics for Static Factory Methods in AutoFixture
 summary:
 id-image: 1

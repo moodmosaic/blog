@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: Hackers, Developers, Programmers
 summary:
 id-image: 1

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: AutoFixture via Edge.js sample adapter-functions
 summary:
 id-image: 1

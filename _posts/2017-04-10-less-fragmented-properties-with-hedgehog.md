@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: Less fragmented properties with Hedgehog
 summary:
 id-image: 5

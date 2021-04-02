@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: Compiling .NET projects in Sublime Text
 summary:
 id-image: 1

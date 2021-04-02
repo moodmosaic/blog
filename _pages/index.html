@@ -1,15 +1,13 @@
 ---
 layout: basic
 permalink: /
-title: Blog
+title: Blog V2
 id-image: 12
 ---
 
-<h2>{{ page.title }}</h2>
-
+<br>
 {% for post in site.posts %}
   <div>
-    <a href="{{ post.url }}">
-      {{ post.date | date: "%Y-%m-%d" }}</a> - {{ post.title }}
+    <a style="font-family: monospace, monospace;" href="{{ post.url }}">{{ post.date | date: "%Y-%m-%d" }}</a> - {{ post.title }}
   </div>
 {% endfor %}
