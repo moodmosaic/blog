@@ -16,7 +16,12 @@
       <div>{{ page.date | date_to_string }}</div>
       {% endif %}
       <div>{{content}}</div>
-      <p>Page generated {{ site.time }}, <a href="https://github.com/moodmosaic/blog/blob/master/{{page.path}}"><code>source available</code></a>.</p>
+      <div>
+        <hr>
+        <span>© 2011-2021 <a href="https://nikosbaxevanis.com">Nikos Baxevanis</a></span>
+        <span style="float: right;"><a href="https://github.com/moodmosaic/blog/blob/master/{{page.path}}">Edit this page</a></span>
+        <br>
+      </div>
     </div>
   </body>
 </html>
