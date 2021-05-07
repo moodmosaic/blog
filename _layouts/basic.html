@@ -11,15 +11,13 @@
     <div>
       <h2 style="margin-bottom: 0;">{{ page.title }}</h2>
       {% if page.date %}
-      <div>{{ page.date | date_to_string }} &bull; <a href="https://nikosbaxevanis.com">{{ site.author.name }}</a></div>
+      <div>{{ page.date | date_to_string }}, {{ site.author.name }}</div>
       {% endif %}
       <div>{{content}}</div>
-      <hr>
-      <small>
-        <span>© 2011-2021 Nikos Baxevanis</span>
+      <div>
         <span style="float: right;"><a href="https://github.com/moodmosaic/blog/blob/master/{{page.path}}">Edit this page</a></span>
         <br>
-      </small>
+      </div>
     </div>
   </body>
 </html>
