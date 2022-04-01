@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{site.baseurl}}/style.css">
+    <title>{{page.title}} - {{site.author.name}}</title>
+  </head>
+  <body>
+    <div>
+      <section>
+        <h1>{{page.title}}</h1>
+        {{content}}
+      </section>
+      <section>
+        <footer>
+          <table>
+            <tbody>
+              <tr>
+                {% if page.date %}
+                  <td>© {{ page.date | date: "%Y-%m-%d" }}
+                    <a href="https://nikosbaxevanis.com">{{ site.author.name }}</a>
+                  </td>
+                  <td style="text-align:right">
+                    <a href="/">Read more posts →</a>
+                  </td>
+                {% else %}
+                  <td>© 2011 - 2022
+                    <a href="https://nikosbaxevanis.com">{{ site.author.name }}</a>
+                  </td>
+                {% endif %}
+              </tr>
+            </tbody>
+          </table>
+        </footer>
+      </section>
+    </div>
+  </body>
+</html>

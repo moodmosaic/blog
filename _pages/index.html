@@ -1,0 +1,20 @@
+---
+layout: basic
+permalink: /
+title: Posts
+---
+
+<p>
+  <a href="{{ site.baseurl }}/feed">RSS</a>
+</p>
+
+<table>
+  <tbody>
+    {% for post in site.posts %}
+    <tr>
+      <td><a href="{{ post.url }}">{{ post.title }}</a></td>
+      <td><i>{{ post.date | date: "%Y-%m-%d" }}</i></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>

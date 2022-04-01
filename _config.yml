@@ -1,0 +1,30 @@
+author:
+  name:
+    Nikos Baxevanis
+  tagline:
+    もう一日
+  blog:
+    http://nikosbaxevanis.com
+  email:
+    nikos.baxevanis@gmail.com
+  github:
+    moodmosaic
+  telegram:
+    moodmosaic
+  twitter:
+    nikosbaxevanis
+  instagram:
+    nikosbaxevanis
+
+include:
+  - _pages
+
+permalink:
+  /:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+highlighter:
+  none
