@@ -64,7 +64,7 @@ code {
   border: 1px solid #e3dcca;
   font-size: 0.8em;
   line-height: 0px;
-  padding: 1px 2px 2px;
+  padding: 1px 2px 2px 0px;
 }
 
 pre {
