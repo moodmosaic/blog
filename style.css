@@ -40,39 +40,37 @@ body {
   src: local('Gentium Basic Italic'), local('GentiumBasic-Italic'), url('gentium-basic-v11-latin-italic.woff') format('woff');
 }
 
-h1 {
-  font-size: 2em;
-  margin: .67em 0;
-}
+/*Spot Palette
+#FDE3E3
+#C4ACAC
+#FFE4E4
+#005B62
 
-h1, h2, a {
-  color: #002664;
-}
-
-p {
-  line-height: 1.4em;
+Twisted Spot Palette
+#FDE3E3
+#00767B
+#BFFCFA
+#609B99
+*/
+a {
+  color: #005B62;
 }
 
 code, pre {
-  background-color: #E3EEFD;
+  background-color: #FDE3E3;
   font-family: "Ubuntu Mono Custom", monospace, serif;
   font-size: 1em;
 }
 
 code {
-  border-radius: 3px;
-  border: 1px solid #e3dcca;
   font-size: 0.8em;
-  line-height: 0px;
-  padding: 1px 2px 2px 0px;
 }
 
 pre {
-  border: 1px dashed #93A1A1;
   font-size: 0.8em;
   line-height: 1.25;
   overflow: auto;
-  padding: 0.5em 0.8em;
+  padding: 0.5em;
   white-space: pre-wrap;
 }
 
