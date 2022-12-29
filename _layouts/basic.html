@@ -25,7 +25,7 @@
                     <a href="/">Read more posts →</a>
                   </td>
                 {% else %}
-                  <td>© 2011 - 2022
+                  <td>© 2011 - 2023
                     <a href="https://nikosbaxevanis.com">{{ site.author.name }}</a>
                   </td>
                 {% endif %}
@@ -34,6 +34,18 @@
           </table>
         </footer>
       </section>
+      {% if page.date %}
+        <section>
+          <script src="https://utteranc.es/client.js"
+            repo="moodmosaic/blog"
+            issue-term="title"
+            label="✨💬✨"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+          </script>
+        </section>
+      {% endif %}
     </div>
   </body>
 </html>
