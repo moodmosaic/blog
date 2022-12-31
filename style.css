@@ -64,6 +64,7 @@ code, pre {
 
 code {
   font-size: 0.8em;
+  border-radius: 2px;
 }
 
 pre {
@@ -72,6 +73,7 @@ pre {
   overflow: auto;
   padding: 0.5em;
   white-space: pre-wrap;
+  border-radius: 7px;
 }
 
 pre code {
