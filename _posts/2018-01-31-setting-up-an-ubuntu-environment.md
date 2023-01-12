@@ -1,10 +1,6 @@
 ---
 layout: basic
 title: Setting up an Ubuntu environment
-summary:
-id-image: 10
-tags:
-  - Miscellaneous
 ---
 
 Tried on Ubuntu 16.04.3 LTS (Xenial Xerus)

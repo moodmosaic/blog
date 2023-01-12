@@ -1,10 +1,6 @@
 ---
 layout: basic
-title: Setting up Haskell on Windows
-summary:
-id-image: 6
-tags:
-    - Haskell
+title: Setting up Haskell on Windowss
 ---
 
 Why do that and not use <a href="https://www.haskell.org/platform/">Haskell Platform</a> instead?

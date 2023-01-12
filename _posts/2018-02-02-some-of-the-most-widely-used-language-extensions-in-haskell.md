@@ -1,10 +1,6 @@
 ---
 layout: basic
 title: Top ten desired Haskell language extensions
-summary:
-id-image: 7
-tags:
-  - Haskell
 ---
 
 If you've seen the [2017 state of Haskell survey results](http://taylor.fausak.me/2017/11/15/2017-state-of-haskell-survey-results/), you might have noticed [section 21](http://taylor.fausak.me/2017/11/15/2017-state-of-haskell-survey-results/#question-21): *Which language extensions would you like to be enabled by default?*

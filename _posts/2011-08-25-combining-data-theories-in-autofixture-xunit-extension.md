@@ -1,11 +1,6 @@
 ---
 layout : basic
 title  : Combining Data Theories in AutoFixture.Xunit extension
-summary: The implementation of the legendary InlineAutoData attribute
-id-image: 1
-tags:
-    - AutoFixture
-    - xUnit.net
 ---
 
 [xUnit.net](http://xunit.codeplex.com/ "xUnit.net is a unit testing tool for the .NET Framework. Written by the original inventor of NUnit.")

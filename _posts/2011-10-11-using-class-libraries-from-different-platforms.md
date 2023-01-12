@@ -1,11 +1,6 @@
 ---
 layout: basic
 title: Using class libraries from different platforms
-summary:
-id-image: 1
-tags:
-    - AutoFixture
-    - Fare
 ---
 
 <p>There are times where we need to use a library written in a different platform than the one we are currently on.&#0160;Most of the times a port already exists and we can choose to go with that.&#0160;Before using a port there are some good considerations:</p>

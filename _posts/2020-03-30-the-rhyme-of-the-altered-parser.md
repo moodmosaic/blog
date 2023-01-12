@@ -1,10 +1,6 @@
 ---
 layout: basic
 title: The rhyme of the altered Parser
-summary:
-id-image: 3
-tags:
-  - Haskell
 ---
 
 Fritz Ruehr's rhyme gives us the essence of parsers:

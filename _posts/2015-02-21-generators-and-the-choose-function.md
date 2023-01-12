@@ -1,11 +1,6 @@
 ---
 layout: basic
 title: Generators and the 'choose' function
-summary:
-id-image: 8
-tags:
-    - FSharp
-    - FsCheck
 ---
 
 Test data is produced, and distributed, by test data generators.

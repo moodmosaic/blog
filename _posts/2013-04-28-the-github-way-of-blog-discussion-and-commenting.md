@@ -1,10 +1,6 @@
 ---
 layout: basic
 title: The GitHub way of blog discussion and commenting
-summary:
-id-image: 1
-tags:
-    - Miscellaneous
 ---
 
 Using the underlying power of [GitHub](http://github.com/), blog authors often take a step further and roll their own discussion and commeting systems.

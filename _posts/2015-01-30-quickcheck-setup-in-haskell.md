@@ -1,11 +1,6 @@
 ---
 layout: basic
 title: QuickCheck setup in Haskell
-summary:
-id-image: 8
-tags:
-    - Haskell
-    - QuickCheck
 ---
 
 Cabal is the build system for Haskell, it also doubles as a package manager. Create a *.cabal* file:

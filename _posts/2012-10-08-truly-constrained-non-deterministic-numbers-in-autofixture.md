@@ -1,10 +1,6 @@
 ---
 layout: basic
-title: Truly Constrained Non-Deterministic Numbers in AutoFixture
-summary:
-id-image: 1
-tags:
-    - AutoFixture
+title: Truly Constrained Non-Deterministic Numbers in AutoFixtures
 ---
 
 Numbers in [AutoFixture](https://github.com/autofixture/autofixture) are currently created using a **strictly monotonically increasing** sequence.

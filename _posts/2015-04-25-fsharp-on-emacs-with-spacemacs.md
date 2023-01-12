@@ -1,10 +1,6 @@
 ---
 layout: basic
 title: F# on Emacs with Spacemacs
-summary:
-id-image: 3
-tags:
-    - FSharp
 ---
 
 While F# is first-class citizen in Visual Studio, there's also support for text editors:

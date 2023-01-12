@@ -1,11 +1,6 @@
 ---
 layout: basic
 title: Clarity property-based testing primer
-summary:
-id-image: 3
-tags:
-    - Clarity
-    - Stacks
 ---
 
 Clarinet's `new` project command, as shown in [Clarity "Hello, World!"](https://blog.nikosbaxevanis.com/2022/01/28/clarity-hello-world-deployed-on-stacks/) post, creates the following files:

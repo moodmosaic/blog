@@ -1,11 +1,6 @@
 ---
 layout: basic
-title: Write you some QuickCheck - Generating random lists
-summary:
-id-image: 7
-tags:
-    - QuickCheck
-    - FSharp
+title: Write you some QuickCheck - Generating random listss
 ---
 
 This post is part of a [series of posts on implementing a minimal version of QuickCheck](/2016/02/08/write-you-some-quickcheck/) from scratch. The source code is [available on GitHub](https://gist.github.com/moodmosaic/65c576732722b3b7a200).

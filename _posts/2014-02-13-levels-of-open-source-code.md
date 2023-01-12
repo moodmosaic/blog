@@ -1,10 +1,6 @@
 ---
 layout: basic
 title: Levels of open-source code
-summary:
-id-image: 1
-tags:
-    - Miscellaneous
 ---
 
 A maturity model for open-source code:

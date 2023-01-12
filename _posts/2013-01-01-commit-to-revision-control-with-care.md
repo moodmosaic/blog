@@ -1,10 +1,6 @@
 ---
 layout: basic
 title: Commit to Revision Control with Care
-summary:
-id-image: 1
-tags:
-    - Miscellaneous
 ---
 
 We should always commit to [revision control](http://en.wikipedia.org/wiki/Revision_control) with care.

@@ -1,10 +1,6 @@
 ---
 layout: basic
 title: GitHub README layouts
-summary:
-id-image: 1
-tags:
-    - Miscellaneous
 ---
 
 In most common scenarios, README files can have one of the following layouts.

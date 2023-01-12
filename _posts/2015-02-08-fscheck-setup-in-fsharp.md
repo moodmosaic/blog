@@ -1,11 +1,6 @@
 ---
 layout: basic
 title: FsCheck setup in F#
-summary:
-id-image: 8
-tags:
-    - FSharp
-    - FsCheck
 ---
 
 In the previous [post](http://blog.nikosbaxevanis.com/2015/01/30/quickcheck-setup-in-haskell/) I used Cabal to bootstrap QuickCheck with Hspec. In Haskell, Cabal is a build system which also doubles as a package manager.

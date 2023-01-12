@@ -1,11 +1,6 @@
 ---
 layout: basic
 title: AutoFixture, xUnit.net, and Auto Mocking
-summary:
-id-image: 3
-tags:
-    - AutoFixture
-    - xUnit.net
 ---
 
 <p class="message">The features discussed in this post are available when using <a href="https://github.com/AutoFixture/AutoFixture">AutoFixture</a> <a href="http://blog.ploeh.dk/2010/10/08/AutoDataTheoriesWithAutoFixture.aspx">decleratively</a> with the xUnit.net <a href="http://nuget.org/packages/AutoFixture.Xunit/">extension</a>. In addition, it is required to have at least one of the extensions for Auto Mocking using <a href="http://nuget.org/packages/AutoFixture.AutoMoq">AutoMoq</a>, <a href="http://nuget.org/packages/AutoFixture.AutoRhinoMocks">AutoRhinoMocks</a>, <a href="http://nuget.org/packages/AutoFixture.AutoFakeItEasy">AutoFakeItEasy</a>, <a href="http://nuget.org/packages/AutoFixture.AutoNSubstitute">AutoNSubstitute</a>, or <a href="http://nuget.org/packages/AutoFixture.AutoFoq">AutoFoq</a>.</p>

@@ -1,12 +1,6 @@
 ---
 layout: basic
 title: Regex-constrained strings with FsCheck
-summary:
-id-image: 9
-tags:
-    - FSharp
-    - FsCheck
-    - Fare
 ---
 
 In Haskell, there's the [quickcheck-regex](https://hackage.haskell.org/package/quickcheck-regex) package, by [Audrey (唐鳳) Tang](https://www.linkedin.com/in/tangaudrey), which allows to write and execute this:

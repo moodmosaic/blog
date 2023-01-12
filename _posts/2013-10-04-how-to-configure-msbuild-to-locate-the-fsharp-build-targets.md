@@ -1,10 +1,6 @@
 ---
 layout: basic
 title: How to configure MSBuild to locate the F# build targets
-summary:
-id-image: 1
-tags:
-    - FSharp
 ---
 
 When the [AutoFixture.AutoFoq](http://nuget.org/packages/AutoFixture.AutoFoq) build run on the [CodeBetter CI](http://teamcity.codebetter.com/) server for the first time, the following error message appeared:

@@ -1,10 +1,6 @@
 ---
 layout: basic
 title: Those pesky build servers
-summary:
-id-image: 13
-tags:
-    - Miscellaneous
 ---
 
 Using a build server can actually hurt productivity:

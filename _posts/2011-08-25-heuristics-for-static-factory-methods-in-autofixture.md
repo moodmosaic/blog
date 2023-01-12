@@ -1,10 +1,6 @@
 ---
 layout: basic
 title: Heuristics for Static Factory Methods in AutoFixture
-summary:
-id-image: 1
-tags:
-    - AutoFixture
 ---
 
 <p>Here is a type with a private constructor:</p>

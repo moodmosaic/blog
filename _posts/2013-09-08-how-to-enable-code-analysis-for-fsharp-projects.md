@@ -1,10 +1,6 @@
 ---
 layout: basic
 title: How to enable Code Analysis for F# projects
-summary:
-id-image: 1
-tags:
-    - FSharp
 ---
 
 As of today, in Visual Studio 2012 the *Run Code Analysis* command is not available for F# projects.

@@ -1,10 +1,6 @@
 ---
 layout: basic
 title: URI support in AutoFixture
-summary:
-id-image: 1
-tags:
-    - AutoFixture
 ---
 
 <p>Starting with version 2.10.0, AutoFixture supports the creation of <a href="http://en.wikipedia.org/wiki/Uniform_resource_identifier" target="_blank" title="In computing, a uniform resource identifier (URI) is a string of characters used to identify a name or a resource. Such identification enables interaction with representations of the resource over a network (typically the World Wide Web) using specific protocols. Schemes specifying a concrete syntax and associated protocols define each URI.">Uniform Resource Identifiers</a>&#0160;and the <a href="http://msdn.microsoft.com/en-us/library/system.uri(v=vs.90).aspx" target="_blank" title="Provides an object representation of a uniform resource identifier (URI) and easy access to the parts of the URI.">Uri</a>&#0160;type.</p>

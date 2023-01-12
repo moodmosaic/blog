@@ -1,10 +1,6 @@
 ---
 layout: basic
 title: XCOPY deployment for Code Contracts
-summary:
-id-image: 1
-tags:
-    - Miscellaneous
 ---
 
 If you don't wish to install [Code Contracts](http://research.microsoft.com/en-us/projects/contracts/) through the Windows Installer:

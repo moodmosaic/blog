@@ -1,12 +1,6 @@
 ---
 layout: basic
 title: Idioms.FsCheck
-summary:
-id-image: 1
-tags:
-    - AutoFixture
-    - xUnit.net
-    - FsCheck
 ---
 
 AutoFixture 3.18 introduces a new glue library called Idioms.FsCheck.

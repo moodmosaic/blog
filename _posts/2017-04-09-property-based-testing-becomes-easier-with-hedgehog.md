@@ -1,11 +1,6 @@
 ---
 layout: basic
 title: Property-based testing becomes easier with Hedgehog
-summary:
-id-image: 5
-tags:
-    - Haskell
-    - Hedgehog
 ---
 
 [Hedgehog](https://github.com/hedgehogqa) is a brand new property-based testing system.

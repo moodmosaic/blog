@@ -1,10 +1,6 @@
 ---
 layout: basic
 title: Web API Dependency Resolver with Castle Windsor
-summary:
-id-image: 1
-tags:
-    - ASP.NET
 ---
 
 <p class="message">The code in this post requires the ASP.NET MVC 4 Beta. If you use the RC version use the code from <a href="http://nikosbaxevanis.com/2012/06/04/using-the-web-api-dependency-resolver-with-castle-windsor-part-2/">this</a> post.</p>

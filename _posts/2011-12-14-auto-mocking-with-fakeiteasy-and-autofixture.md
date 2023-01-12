@@ -1,10 +1,6 @@
 ---
 layout: basic
 title: Auto-Mocking with FakeItEasy and AutoFixture
-summary:
-id-image: 1
-tags:
-    - AutoFixture
 ---
 
 <p>AutoFixture can become an auto-mocking container using <a title="The simplest mocking library for .NET 3.5 and Silverlight with deep C# 3.0 integration." href="http://code.google.com/p/moq/" target="_blank">Moq</a>&nbsp;(described <a title="AutoFixture as an auto-mocking container." href="http://blog.ploeh.dk/2010/08/19/AutoFixtureAsAnAutomockingContainer.aspx" target="_blank">here</a>) and <a title="Rhino Mocks is a dynamic mock object framework for the .Net platform. Its purpose is to ease testing by allowing the developer to create mock implementations of custom objects and verify the interactions using unit testing." href="http://hibernatingrhinos.com/open-source/rhino-mocks" target="_blank">Rhino Mocks</a> (described <a title="Rhino Mocks-based auto-mocking with AutoFixture." href="http://blog.ploeh.dk/2010/11/13/RhinoMocksbasedAutomockingWithAutoFixture.aspx" target="_blank">here</a>).</p>

@@ -1,10 +1,6 @@
 ---
 layout: basic
 title: Dynamic Proxy overriding Equals in AutoFixture Likeness
-summary:
-id-image: 1
-tags:
-    - AutoFixture
 ---
 
 <p>From version 2.9.0 of AutoFixture, the&nbsp;<a href="http://blog.ploeh.dk/2010/06/29/IntroducingAutoFixtureLikeness.aspx" target="_blank">Likeness</a>&nbsp;class contains a new feature for&nbsp;creating a dynamic proxy that overrides Equals on the destination type.</p>

@@ -1,11 +1,6 @@
 ---
 layout: basic
-title: Clarity syntax definitions for Sublime Text
-summary:
-id-image: 3
-tags:
-    - Clarity
-    - Stacks
+title: Clarity syntax definitions for Sublime Texts
 ---
 
 Sublime Text currently ships without Clarity syntax definitions. Here's the process I followed to make my own [.sublime-syntax](https://www.sublimetext.com/docs/syntax.html) files.

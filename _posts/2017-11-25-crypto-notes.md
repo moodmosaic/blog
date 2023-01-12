@@ -1,10 +1,6 @@
 ---
 layout: basic
 title: Crypto-notes
-summary:
-id-image: 8
-tags:
-  - Miscellaneous
 ---
 
 ## Bitcoin, Ethereum, Cardano, NEO, etc.

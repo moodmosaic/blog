@@ -1,10 +1,6 @@
 ---
 layout: basic
 title: Compiling .NET projects in Sublime Text
-summary:
-id-image: 1
-tags:
-    - SublimeText
 ---
 
 <p class="message">The subject of this post is the compilation of .NET projects and solutions in Sublime Text using the Build Systems feature.</p>

@@ -1,10 +1,6 @@
 ---
 layout: basic
 title: Exercising the SUT asynchronously
-summary:
-id-image: 1
-tags:
-    - xUnit.net
 ---
 
 In unit testing, there are times were the [SUT](http://xunitpatterns.com/SUT.html) has to be exercised **asynchronously**.

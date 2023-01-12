@@ -1,11 +1,6 @@
 ---
 layout: basic
 title: Auto-Mocking with Foq and AutoFixture
-summary:
-id-image: 1
-tags:
-    - AutoFixture
-    - FSharp
 ---
 
 A new Auto-mocking extension have been recently added to [AutoFixture](http://github.com/autofixture/autofixture) allowing the mock instances to be created by [Foq](http://foq.codeplex.com/).

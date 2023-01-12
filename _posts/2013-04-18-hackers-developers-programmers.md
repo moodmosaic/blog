@@ -1,10 +1,6 @@
 ---
 layout: basic
 title: Hackers, Developers, Programmers
-summary:
-id-image: 1
-tags:
-    - Miscellaneous
 ---
 
 The definitions about Hackers, Developers, and Programmers, that I like best are:

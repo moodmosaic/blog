@@ -1,10 +1,6 @@
 ---
 layout: basic
 title: Why QuickCheck can be useful
-summary:
-id-image: 3
-tags:
-    - QuickCheck
 ---
 
 One of the many challenges when doing Test-Driven Development is to come up with [good enough](http://blog.ploeh.dk/2009/03/05/ConstrainedNon-Determinism/) random input values, in such a way that the [system under test](http://xunitpatterns.com/SUT.html) (SUT) can be exercised every time though the same code path.

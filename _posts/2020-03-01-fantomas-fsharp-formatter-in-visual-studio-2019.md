@@ -1,10 +1,6 @@
 ---
 layout: basic
 title: Fantomas F# formatter in Visual Studio 2019
-summary:
-id-image: 1
-tags:
-  - FSharp
 ---
 
 You can run Fantomas as an external tool from inside Visual Studio 2019 by using the Tools menu.

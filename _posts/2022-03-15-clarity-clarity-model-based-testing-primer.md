@@ -1,11 +1,6 @@
 ---
 layout: basic
 title: Clarity model-based testing primer
-summary:
-id-image: 3
-tags:
-    - Clarity
-    - Stacks
 ---
 
 In the previous post you saw how [Clarity contracts can be property-based tested in a reasonable way](/2022/03/05/clarity-property-based-testing-primer/).

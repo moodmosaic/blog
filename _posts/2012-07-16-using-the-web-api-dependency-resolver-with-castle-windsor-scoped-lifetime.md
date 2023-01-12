@@ -1,10 +1,6 @@
 ---
 layout: basic
-title: Web API Dependency Resolver with Castle Windsor's Scoped Lifetime
-summary:
-id-image: 1
-tags:
-    - ASP.NET
+title: Web API Dependency Resolver with Castle Windsor's Scoped Lifetimes
 ---
 
 **Update**: [Mark Seemann](http://blog.ploeh.dk/) has provided a [solution](http://blog.ploeh.dk/2012/10/03/DependencyInjectionInASPNETWebAPIWithCastleWindsor.aspx) without using the IDependencyResolver interface.

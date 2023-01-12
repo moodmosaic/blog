@@ -1,11 +1,6 @@
 ---
 layout: basic
 title: Clarity Control flow & error handling - asserts!
-summary:
-id-image: 3
-tags:
-    - Clarity
-    - Stacks
 ---
 
 [Clarity of Mind](https://book.clarity-lang.org/) book discusses [control flow and error handling](https://book.clarity-lang.org/ch06-00-control-flow.html). Here's an example of how it looks like to refactor from `if` statements to [`asserts!`](https://book.clarity-lang.org/ch06-01-asserts.html).

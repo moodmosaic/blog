@@ -1,10 +1,6 @@
 ---
 layout: basic
 title: Atom + Stack = no globally installed GHC/packages
-summary:
-id-image: 11
-tags:
-    - Haskell
 ---
 
 When doing Haskell programming

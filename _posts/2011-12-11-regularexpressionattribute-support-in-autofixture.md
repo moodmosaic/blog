@@ -1,11 +1,6 @@
 ---
 layout : basic
 title  : RegularExpressionAttribute support in AutoFixture
-summary: Generate random text matching a given regex with AutoFixture
-id-image: 1
-tags:
-    - AutoFixture
-    - Fare
 ---
 
 Starting with AutoFixture version 2.6, when this attribute is applied on a data

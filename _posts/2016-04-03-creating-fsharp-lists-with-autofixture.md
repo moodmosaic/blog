@@ -1,11 +1,6 @@
 ---
 layout: basic
-title: Creating F# lists with AutoFixture
-summary:
-id-image: 4
-tags:
-    - AutoFixture
-    - FSharp
+title: Creating F# lists with AutoFixtures
 ---
 
 ## Problem

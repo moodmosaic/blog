@@ -1,11 +1,6 @@
 ---
 layout: basic
 title: Clarity "Hello, World!" deployed on Stacks
-summary:
-id-image: 3
-tags:
-    - Clarity
-    - Stacks
 ---
 
 [Clarity](https://clarity-lang.org/) is a relatively new language that brings smart contracts to Bitcoin.

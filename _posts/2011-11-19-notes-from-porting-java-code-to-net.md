@@ -1,11 +1,6 @@
 ---
 layout: basic
 title: Notes from porting Java code to .NET
-summary:
-id-image: 1
-tags:
-    - AutoFixture
-    - Fare
 ---
 
 <p>Recently I needed to use a&#0160;DFA/NFA (finite-state automata) implementation from a Java package in .NET. I could not find a port of this particular&#0160;<a href="http://www.brics.dk/automaton/" target="_blank" title="dk.brics.automaton">package</a>&#0160;and&#0160;<a href="http://www.ikvm.net/userguide/ikvmc.html" target="_blank" title="IKVM.NET Bytecode Compiler (ikvmc.exe)">IKVMC</a>&#0160;was not an option since I preferred to depend only on the standard library (BCL). So,&#0160;I decided to port the code myself.</p>

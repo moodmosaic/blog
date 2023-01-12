@@ -1,11 +1,6 @@
 ---
 layout: basic
 title: Clarity reference - Part 2 / Data-Space Primitives
-summary:
-id-image: 3
-tags:
-    - Clarity
-    - Stacks
 ---
 
 Data within a smart contract’s data-space is stored within `maps`.

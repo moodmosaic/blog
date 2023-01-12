@@ -1,11 +1,6 @@
 ---
 layout: basic
 title: Composite xUnit.net Data Attributes
-summary:
-id-image: 1
-tags:
-    - AutoFixture
-    - xUnit.net
 ---
 
 [xUnit.net](http://xunit.codeplex.com/) [extensions](http://nuget.org/packages/xunit.extensions) support data-driven tests called [Theories](http://xunit.codeplex.com/wikipage?title=Comparisons#note4). Such tests are similar to regular xUnit.net tests but instead of being decorated with `[Fact]` they are decorated with `[Theory]`.

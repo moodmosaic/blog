@@ -1,10 +1,6 @@
 ---
 layout: basic
 title: AutoFixture via Edge.js sample adapter-functions
-summary:
-id-image: 1
-tags:
-    - AutoFixture
 ---
 
 If you build Node.js applications, you can use [AutoFixture](https://github.com/AutoFixture/AutoFixture) via [Edge.js](http://tjanczuk.github.io/edge/). The sample adapter-functions from the screencast are availabe as a [gist](https://gist.github.com/moodmosaic/5840800).

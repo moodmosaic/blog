@@ -1,11 +1,6 @@
 ---
 layout: basic
-title: Clarity reference - Part 1 / Primitives
-summary:
-id-image: 3
-tags:
-    - Clarity
-    - Stacks
+title: Clarity reference - Part 1 / Primitivess
 ---
 
 Clarity differs from most other smart contract languages in two important ways:

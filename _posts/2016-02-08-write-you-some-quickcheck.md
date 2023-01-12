@@ -1,11 +1,6 @@
 ---
 layout: basic
 title: Write you some QuickCheck
-summary:
-id-image: 7
-tags:
-    - QuickCheck
-    - FSharp
 ---
 
 In the next couple of posts, I'm going to implement a basic version of QuickCheck from scratch. Follow along and you'll:
