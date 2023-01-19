@@ -3,9 +3,7 @@ layout: basic
 title: Pandora - Part 1
 ---
 
-*Pandora enables property-based testing and headless fuzzing for your Clarity contracts. It allows you to write your tests in both Clarity and TypeScript. This is Part 1 of the [Pandora article series](/2023/01/16/pandora/).*
-
-## TypeScript tests
+*Pandora allows you to test your smart contracts in both Clarity and TypeScript. It also enables property-based testing and headless fuzzing. This is Part 1 of the [article series](/2023/01/16/pandora/).*
 
 A typical workflow in the Stacks ecosystem is declaring functions in Clarity and then writing tests in TypeScript. As an example, you define in Clarity a `get-counter` read-only function
 
@@ -17,7 +15,7 @@ A typical workflow in the Stacks ecosystem is declaring functions in Clarity and
 )
 ```
 
-and then you write a test in TypeScript for your Clarity function, or vice-versa if you are doing Test-Driven Development
+and then you write a test in TypeScript for your Clarity function (or vice-versa if you are doing Test-Driven Development)
 
 ```
 Clarinet.test({
@@ -33,11 +31,9 @@ Clarinet.test({
 });
 ```
 
-These TypeScript tests [are essentially Deno tests](https://blog.nikosbaxevanis.com/2022/03/05/clarity-property-based-testing-primer). This means you can use what's already available in Deno ecosystem. For example, [fast-check](https://github.com/dubzzz/fast-check) and [dspec](https://deno.land/x/dspec@v0.2.0) both can be used, as shown [here](https://github.com/moodmosaic/testing-example/commit/c02aaad9c6e10e7a1a62758dc83f4aab3b8a3c36).
+These TypeScript tests [are essentially Deno tests](https://blog.nikosbaxevanis.com/2022/03/05/clarity-property-based-testing-primer). This means you can use what's already available in Deno ecosystem. For example, [fast-check](https://github.com/dubzzz/fast-check) and [dspec](https://deno.land/x/dspec@v0.2.0) both can be used, as we've done [here](https://github.com/moodmosaic/testing-example/commit/c02aaad9c6e10e7a1a62758dc83f4aab3b8a3c36) with _lnow_.
 
-## Clarity tests
-
-Clarity should be a first-class citizen when testing Clarity code. The syntax is similar to LISP, and not all LISP developers know - or want to know - about Deno, TypeScript and JavaScript.
+Clarity can be a first-class citizen when testing smart contracts. Being able to write tests in Clarity helps you minimize context switching, so you can focus on what matters.
 
 It should be possible to write tests in Clarity as [Jude Nelson](https://fosstodon.org/@judecnelson) very nicely does [here](https://github.com/jcnelson/poxl/blob/c4d66d035170e67c7d8a9c6a0c0662d378dcd077/tests/test-poxl.clar). Here's a snippet:
 
@@ -58,14 +54,10 @@ It should be possible to write tests in Clarity as [Jude Nelson](https://fosstod
 )
 ```
 
-I *very much* like this approach.
+In a Clarity contract, any function that meets the following criteria is essentially a test cadidate:
 
-Any function that meets the following criteria is essentially a test cadidate:
-
-* The function has a certain visibility (*private* by default)
-* The function name starts with *test* (configurable)
+* The function has a certain type of visibility (defualt *private*, configurable)
+* The function name starts with *xyz* (default *test-*, configurable)
 * If a function named *beforeEach* exists, it can be executed before each test is run
 
-## TypeScript and Clarity tests
-
-If a test function takes parameters, these can be auto-generated using a [fuzzer](https://blog.nelhage.com/post/property-testing-is-fuzzing) and then the test can run multiple times (*250* by default)
+In both cases (tests written in TypeScript and tests written in Clarity) when a test function takes parameters, these can be auto-generated using a [fuzzer](https://blog.nelhage.com/post/property-testing-is-fuzzing) and then the test can run multiple times (default *250*, configurable).
