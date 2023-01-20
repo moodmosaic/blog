@@ -3,9 +3,9 @@ layout: basic
 title: Pandora - Part 1
 ---
 
-*Pandora allows you to test your smart contracts in both Clarity and TypeScript. It also enables property-based testing and headless fuzzing. This is Part 1 of the [article series](/2023/01/16/pandora/).*
+*Pandora enables property-based testing and headless-fuzzing for smart contracts that run on the Stacks 2.x layer-1 blockchain. This is Part 1 of the [article series](/2023/01/16/pandora/).*
 
-A typical workflow in the Stacks ecosystem is declaring functions in Clarity and then writing tests in TypeScript. As an example, you define in Clarity a `get-counter` read-only function
+A typical workflow in the Stacks ecosystem is declaring functions in Clarity and then writing tests in TypeScript. As an example, you define in Clarity a `get-counter` function
 
 ```
 (define-data-var counter uint u0)
@@ -15,7 +15,7 @@ A typical workflow in the Stacks ecosystem is declaring functions in Clarity and
 )
 ```
 
-and then you write a test in TypeScript for your Clarity function (or vice-versa if you are doing Test-Driven Development)
+and then you write a test in TypeScript for that function (or vice-versa if you are doing Test-Driven Development)
 
 ```
 Clarinet.test({
@@ -32,6 +32,8 @@ Clarinet.test({
 ```
 
 These TypeScript tests [are essentially Deno tests](https://blog.nikosbaxevanis.com/2022/03/05/clarity-property-based-testing-primer). This means you can use what's already available in Deno ecosystem. For example, [fast-check](https://github.com/dubzzz/fast-check) and [dspec](https://deno.land/x/dspec@v0.2.0) both can be used, as we've done [here](https://github.com/moodmosaic/testing-example/commit/c02aaad9c6e10e7a1a62758dc83f4aab3b8a3c36) with _lnow_.
+
+## Clarity
 
 Clarity can be a first-class citizen when testing smart contracts. Being able to write tests in Clarity helps you minimize context switching, so you can focus on what matters.
 
@@ -54,10 +56,129 @@ It should be possible to write tests in Clarity as [Jude Nelson](https://fosstod
 )
 ```
 
-In a Clarity contract, any function that meets the following criteria is essentially a test cadidate:
+In a Clarity contract, any function that meets the following criteria can essentially be a test cadidate:
 
 * The function has a certain type of visibility (defualt *private*, configurable)
 * The function name starts with *xyz* (default *test-*, configurable)
 * If a function named *beforeEach* exists, it can be executed before each test is run
 
-In both cases (tests written in TypeScript and tests written in Clarity) when a test function takes parameters, these can be auto-generated using a [fuzzer](https://blog.nelhage.com/post/property-testing-is-fuzzing) and then the test can run multiple times (default *250*, configurable).
+## Fuzzing
+
+In both cases (tests written in TypeScript and tests written in Clarity) when a test function takes extra arguments, these can be auto-generated using a [fuzzer](https://blog.nelhage.com/post/property-testing-is-fuzzing). Then, the test can run multiple times (default *250*, configurable).
+
+#### Step 1: Take an existing Clarinet test
+
+```ts
+Clarinet.test({
+  name: 'write-sup returns expected string',
+  async fn(chain: Chain, accounts: Map<string, Account>) {
+    // Arrange
+    const account = accounts.get('deployer')!;
+    const msg = types.utf8("lorem ipsum");
+    const stx = types.uint(123);
+
+    // Act
+    const block = chain.mineBlock([
+      Tx.contractCall(
+        'sup', 'write-sup', [msg, stx], account.address)
+    ]);
+    const result = block.receipts[0].result;
+
+    // Assert
+    result
+      .expectOk()
+      .expectAscii('Sup written successfully');
+  }
+});
+```
+
+#### Step 2: Change `test` to `fuzz` (or `prop`, to be discussed)
+
+```diff
+-Clarinet.test({
++Clarinet.fuzz({
+   name: 'write-sup returns expected string',
+   async fn(chain: Chain, accounts: Map<string, Account>) {
+     // Arrange
+     const account = accounts.get('deployer')!;
+     const msg = types.utf8("lorem ipsum");
+```
+
+#### Step 3: Specify number of runs (optional - default is 250)
+
+```diff
+ Clarinet.fuzz({
+   name: 'write-sup returns expected string',
++  runs: 10,
+   async fn(chain: Chain, accounts: Map<string, Account>) {
+     // Arrange
+     const account = accounts.get('deployer')!;
+     const msg = types.utf8("lorem ipsum");
+     const stx = types.uint(123);
+```
+
+#### Step 4: Auto-generate values instead of hardcoding them
+
+```diff
+ Clarinet.fuzz({
+   name: 'write-sup returns expected string',
+   runs: 10,
+-  async fn(chain: Chain, accounts: Map<string, Account>) {
++  async fn(chain: Chain, account: Account, message: string, howMuch: number|bigint) {
+     // Arrange
+-    const account = accounts.get('deployer')!;
+-    const msg = types.utf8("lorem ipsum");
+-    const stx = types.uint(123);
++    const msg = types.utf8(message);
++    const stx = types.uint(howMuch);
+
+     // Act
+     const block = chain.mineBlock([
+       Tx.contractCall(
+         'sup', 'write-sup', [msg, stx], account.address)
+```
+
+The test should now look like below:
+
+```ts
+Clarinet.fuzz({
+  name: 'write-sup returns expected string',
+  runs: 10,
+  async fn(chain: Chain, account: Account, message: string, howMuch: number|bigint) {
+    // Arrange
+    const msg = types.utf8(message);
+    const stx = types.uint(howMuch);
+
+    // Act
+    const block = chain.mineBlock([
+      Tx.contractCall(
+        'sup', 'write-sup', [msg, stx], account.address)
+    ]);
+    const result = block.receipts[0].result;
+
+    // Assert
+    result
+      .expectOk()
+      .expectAscii('Sup written successfully');
+  }
+});
+```
+
+Output:
+
+```
+$ clarinet test
+=> returns expected val ... #1  wallet_9 12 ipsum semper ultricies ante p ... ok (17ms)
+=> returns expected val ... #2  wallet_3 98 ultricies dolor pharetra a ... ok (13ms)
+=> returns expected val ... #3  wallet_1 97 tempor erat ... ok (21ms)
+=> returns expected val ... #4  wallet_3 99 ipsum consectetuer orci ... ok (15ms)
+=> returns expected val ... #5  wallet_8 27 molestie eros ... ok (15ms)
+=> returns expected val ... #6  wallet_5 13 risus enim aliquam aliquam ... ok (15ms)
+=> returns expected val ... #7  wallet_8 16 vivamus ut ... ok (10ms)
+=> returns expected val ... #8  wallet_2 46 suscipit consectetur non et ... ok (8ms)
+=> returns expected val ... #9  wallet_9 55 dolor ... ok (10ms)
+=> returns expected val ... #10 wallet_6 88 tincidunt ... ok (12ms)
+=> returns expected val ... ok (164ms)
+
+ok | 1 passed (10 steps) | 0 failed (218ms)
+```
