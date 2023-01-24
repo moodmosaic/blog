@@ -7,7 +7,7 @@ title: Pandora - Part 1
 
 A typical workflow in the Stacks ecosystem is declaring functions in Clarity and then writing tests in TypeScript. As an example, you define in Clarity a `get-counter` function
 
-```
+```lisp
 (define-data-var counter uint u0)
 
 (define-read-only (get-counter)
@@ -17,7 +17,7 @@ A typical workflow in the Stacks ecosystem is declaring functions in Clarity and
 
 and then you write a test in TypeScript for that function (or vice-versa if you are doing Test-Driven Development)
 
-```
+```ts
 Clarinet.test({
   name: "ensure <get-counter> send the counter value",
   fn(chain: Chain, accounts: Map<string, Account>) {
@@ -39,7 +39,7 @@ Clarity can be a first-class citizen when testing smart contracts. Being able to
 
 It should be possible to write tests in Clarity as [Jude Nelson](https://fosstodon.org/@judecnelson) very nicely does [here](https://github.com/jcnelson/poxl/blob/c4d66d035170e67c7d8a9c6a0c0662d378dcd077/tests/test-poxl.clar). Here's a snippet:
 
-```
+```lisp
 (define-private (test-get-block-commit-total)
     (begin
         (print "test-get-block-commit-total")
@@ -166,7 +166,7 @@ Clarinet.fuzz({
 
 Output:
 
-```
+```bash
 $ clarinet test
 => returns expected val ... #1  wallet_9 12 ipsum semper ultricies ante p ... ok (17ms)
 => returns expected val ... #2  wallet_3 98 ultricies dolor pharetra a ... ok (13ms)
