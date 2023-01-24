@@ -25,6 +25,3 @@ permalink:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-
-highlighter:
-  none
