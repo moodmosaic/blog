@@ -3,6 +3,17 @@ layout: basic
 title: Pandora - Part 1
 ---
 
+<!-- +.profile-pic {
++  border-radius: 2%;
++  display: block;
++  /* margin-left: auto; */
++  margin-right: auto;
++  margin-top: 2em;
++  max-width: 43%;
++  width: 50%;
++}
++ -->
+
 *Pandora enables property-based testing and headless-fuzzing for smart contracts that run on the Stacks 2.x layer-1 blockchain. This is Part 1 of the [article series](/2023/01/16/pandora/).*
 
 A typical workflow in the Stacks ecosystem is declaring functions in Clarity and then writing tests in TypeScript. As an example, you define in Clarity a `get-counter` function
