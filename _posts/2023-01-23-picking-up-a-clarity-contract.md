@@ -37,3 +37,5 @@ What's *very* interesting--and it is the reason I am picking up this particular 
 
 [cargo-tests]: https://github.com/kenrogers/cargo/commit/63ae16ee84b03ff087f439498e489742fbf5fe68#diff-2978df20fa696c9a65fce8380d76aa9f2322db34fe4437821833fadab649cdd3
 [cargo-bug-fix]: https://github.com/kenrogers/cargo/commit/758dbf51c5e43521032549b19d427467b7d2c195#diff-ddee0aadb9729d02051e6a8fd76e0f59e45cee0f37ba767ba2b91b4aeea46ff1
+
+Next: Invariant testing from command-line.
