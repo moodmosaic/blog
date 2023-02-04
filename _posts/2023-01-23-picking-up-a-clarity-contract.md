@@ -41,7 +41,7 @@ Testing can decrease the number of defects but not remove all defects[^2]. The e
 
 This is a known technique, used by the Ethereum community, refered to as invariant testing[^3] and can be--and should be--also used when building in Stacks.
 
-Next: Invariant testing from command-line.
+Next: [Invariant testing from command-line](/2023/01/30/invariant-testing-from-command-line).
 
 <div>---</div>
 
