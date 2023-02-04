@@ -146,7 +146,7 @@ A smart contract invariant is a logical statement about the contract's observabl
 
 In REPL, randomly call public functions on the Cargo contract to build a simplified model. You will then compare that model's state with the actual public, observable, state of the Cargo contract:
 
-![image](https://user-images.githubusercontent.com/287532/216291316-8f7c4551-884f-42e2-893b-a646c47664fa.png)
+![image](https://nikosbaxevanis.com/images/articles/2023-01-30-invariant-testing-from-command-line-1.png)
 <small style="display: block;text-align: center;">Image taken and modified from [Spotify's article](https://engineering.atspotify.com/2015/06/rapid-check/) on the same topic.</small>
 
 The simplified model in this case can be a dictionary of IDs (Key) and Shipments (Value). In its empty state it looks like this:
