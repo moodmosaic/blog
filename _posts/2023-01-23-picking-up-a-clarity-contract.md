@@ -26,22 +26,21 @@ You can find out more about Cargo in [this][kenny-rogers-article] article by [Ke
 [kenny-rogers-article]: https://dev.to/stacks/test-driven-stacks-development-with-clarinet-2e4i
 [kenny-rogers-twitter]: https://twitter.com/kentherogers
 
-Cargo was [tested][cargo-tests], but the following bug made its way into testnet[^1]:
+Cargo was [tested][cargo-tests], but a bug made its way into testnet[^1].
 
 [cargo-tests]: https://github.com/kenrogers/cargo/commit/63ae16ee84b03ff087f439498e489742fbf5fe68#diff-2978df20fa696c9a65fce8380d76aa9f2322db34fe4437821833fadab649cdd3
 
-`BUG` Can not read the status of past shipments, other than the last created one.<br>
-`FIX` [Add the ID of the newly created entity to the internal map][cargo-bug-fix] that keeps track of the shipments.
-
 ## Detecting the unexpected
 
-Testing can decrease the number of defects but not remove all defects[^2]. The existing tests verify that a given function works as expected. What you want is one step further:
+Testing can decrease the number of defects but not remove all defects[^2]. Mainstream, [example-based][example-based], unit tests verify that a given function works as expected. What you want is one step further:
 
 >Verify that *combinations* of functions in the smart contract work as expected.
 
-This is a known technique, used by the Ethereum community, refered to as invariant testing[^3] and can be--and should be--also used when building in Stacks.
+There is known technique for doing that, which I have noticed also on Ethereum, refered to as invariant testing[^3] and can be--and should be--also used when building on Stacks.
 
 Next: [Invariant testing from command-line](/2023/01/30/invariant-testing-from-command-line).
+
+[example-based]: https://fsharpforfunandprofit.com/posts/property-based-testing
 
 <div>---</div>
 

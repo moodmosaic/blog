@@ -9,7 +9,7 @@ title: Invariant testing from command-line
 
 [series-of-articles]: /bitcoin/stacks/pandora
 
-In [first article in this series][part1] you learned about Cargo, a fictional, simple smart contract that runs on the Stacks blockchain. Cargo had a bug that the existing tests could not detect.
+In the [first article in this series][part1] you learned about Cargo, a fictional, simple smart contract that runs on the Stacks blockchain. Cargo had a bug that the existing tests could not detect.
 
 [part1]: /2023/01/23/picking-up-a-clarity-contract
 
@@ -270,8 +270,11 @@ Expected: (location "Athens") (receiver ST1SJ3DTE5DN7X54YDH5D64R3BCB6A2AG2ZQ8YPD
 
 ## Sanity check automation
 
-With sanity checks `2` and `3` you were able to uncover the bug in the Cargo contract.
+With sanity checks `2` and `3` you were able to uncover the bug in the Cargo contract:
 
-On one hand the process was manual and cumbersome, on the other hand this will help encode those manual ssanity checks into automated test-cases that can be executed randomly.
+`BUG` Can not find past shipments.<br>
+`FIX` [Store the ID of the newly added internally][cargo-bug-fix].
+
+[cargo-bug-fix]: https://github.com/kenrogers/cargo/commit/758dbf51c5e43521032549b19d427467b7d2c195#diff-ddee0aadb9729d02051e6a8fd76e0f59e45cee0f37ba767ba2b91b4aeea46ff1
 
 Next: Invariant testing from TypeScript.
